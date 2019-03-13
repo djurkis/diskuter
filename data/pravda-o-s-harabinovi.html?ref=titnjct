@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]>  <html class="lt-ie9" lang="sk"> <![endif]-->
+<!--[if gte IE 9]>  <html lang="sk"> <![endif]-->
+<!--[if !IE]><!--> <html lang="sk"> <!--<![endif]-->    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Pravda o Š. Harabinovi - Roman Frnčo (blog.sme.sk) </title>
+        <link type="image/x-icon" href="    https://a.smedata.sk/blog/bundles/smeblogweb/css/images/favicon.ico?r=27ca
+" rel="shortcut icon" />        <link rel="canonical" href="https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html" />
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" /><link rel="stylesheet" type="text/css" href="https://a.smedata.sk/monitor/bundles/smeblockmanagerapi/css/corpbar/sme-export-critical.css?rev=2" />
+<script>
+(function(){if("function"===typeof window.Promise)return!1;var a=document.createElement("script");a.src="https://a.smedata.sk/monitor/bundles/smeblockmanagerapi/js/corpbar/promise-polyfill.min.js";a.async=false;document.head.appendChild(a)})();
+</script>
+            <link href="https://a.smedata.sk/blog/bundles/static/css/compiled/style_b.css?r=27ca" type="text/css" rel="stylesheet" />
+        <link href="https://a.smedata.sk/blog/bundles/smeblogweb/css/print.css?r=27ca" rel="stylesheet" type="text/css" media="print" />
+
+    <meta name="description" content="Kamoš sa ma minule spýtal, prečo nevoliť Štefana Harabina. Keďže som mu nechcel dať ako odpoveď len zopár fráz, vyprovokoval ma k tomu, aby som si o Harabinovi ešte viac naštudoval. Na konci článku si urobte o ňom vlastný názor.  " />
+        <meta name="keywords" content="blog, blogger, bloger, blogs, blogy, blogeri, blogerky, bloggers, sme" />
+        <meta name="author" content="Petit Press  a.s." />
+        <meta name="robots" content="index, follow" /><link rel="alternate" type="application/rss+xml" title="RSS" href="https://blog.sme.sk/rss" /><link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144x144-precomposed.png" /><!-- JS-on vyhodnotena responzivita => smeBlogLayoutType() -->
+        <script type="text/javascript">
+            var smeBlogLayoutType = (function() {
+                 var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth;
+                 if (x < 600) {
+                     return 'responsive_1';
+                 } else if (x >= 600) {
+                     return 'original';
+                 }
+             });
+        </script><!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- BEGIN SmeAdvertManager-Position: _layout_script -->
+
+<!-- END SmeAdvertManager-Position: _layout_script -->
+
+<script>
+        var smeAdvertLayoutType = (function() {
+            var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth;
+            if (x < 1000) {
+                return 'responsive_1';
+            } else if (x >= 1000) {
+                return 'original';
+            }
+        });
+    </script>            <meta property="fb:admins" content="686226655, 585314000" /><meta property="og:site_name" content="blog.sme.sk" /><meta property="og:type" content="article" /><meta property="og:url" content="https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html" /><meta property="og:title" content="Pravda o Š. Harabinovi" /><meta property="og:image" content="https://u.smedata.sk/blog/article/8/50/503858/503858_article_photo_rljnijm_600x.jpeg?r=27ca" /><meta property="og:locale" content="sk_SK" /><meta property="og:description" content="Kamoš sa ma minule spýtal, prečo nevoliť Štefana Harabina. Keďže som mu nechcel dať ako odpoveď len zopár fráz, vyprovokoval ma k tomu, aby som si o Harabinovi ešte viac naštudoval. Na konci článku si…" />
+        <meta name="copyright" content="Petit Press, a.s."/>
+    <meta name="revisit-after" content="1 days"/>
+    <meta name="classification" content="Media"/>
+    <meta name="distribution" content="Global"/>
+    <meta name="rating" content="General"/>
+    <meta name="doc-type" content="Web Page"/>
+    <meta name="doc-class" content="Published"/>
+    <meta name="doc-rights" content="Copywritten Work"/>
+    <meta name="doc-publisher" content="Petit Press, a.s."/>
+    <meta name = "viewport" content = "width = device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:url" content="https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html" />
+    <meta name="twitter:description" content="Kamoš sa ma minule spýtal, prečo nevoliť Štefana Harabina. Keďže som mu nechcel dať ako odpoveď len zopár fráz, vyprovokoval ma k tomu, aby som si o Harabinovi ešte viac naštudoval. Na konci článku si" />
+    <meta name="twitter:title" content="Pravda o Š. Harabinovi" />
+            <meta name="twitter:image" content="https://u.smedata.sk/blog/article/8/50/503858/503858_article_photo_rljnijm_600x.jpeg?r=27ca" />
+    
+    </head>
+    <body ><script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+        var pp_gemius_identifier = 'd2CbiYseSIFKJNbmLLhqycSsLd7_3I7oGbOsFT.E6HL.q7';
+        // lines below shouldn't be edited
+        function gemius_pending(i) { window[i] = window[i] || function() {var x = window[i+'_pdata'] = window[i+'_pdata'] || []; x[x.length]=arguments;};};
+        gemius_pending('gemius_hit'); gemius_pending('gemius_event'); gemius_pending('pp_gemius_hit'); gemius_pending('pp_gemius_event');
+        (function(d,t) {try {var gt=d.createElement(t),s=d.getElementsByTagName(t)[0],l='http'+((location.protocol=='https:')?'s':''); gt.setAttribute('async','async');
+        gt.setAttribute('defer','defer'); gt.src=l+'://gask.hit.gemius.pl/xgemius.js'; s.parentNode.insertBefore(gt,s);} catch (e) {}})(document,'script');
+        //--><!]]>
+    </script><div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v2.4&appId=268319713188640";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+<!-- BEGIN SmeAdvertManager-Position: _priority_header -->
+<!-- TAGS: site=article | section=blog | default=blog-->
+<!-- BEGIN MAIN priority_header -->
+<script>
+    // for BC with old Advert manager
+    if (typeof smeAdvertManager === "undefined") {
+        var smeAdvertManager = {debugEnabled: false};
+    }
+
+    var smeAdManager = smeAdManager || {};
+    smeAdManager.cmd = smeAdManager.cmd || [];
+    (function () {
+        var sam = document.createElement("script");
+        sam.async = true;
+        sam.src = "https://a.smedata.sk/monitor/bundles/smeadvertmanagerserver/js/SmeAdManager.js?r=70b";
+        var node = document.getElementsByTagName("script")[0];
+        node.parentNode.insertBefore(sam, node);
+    })();
+
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.init({
+            "debugCookieName": "advert_manager_debug_info_cookie",
+            "debugToken": "GHjj\u0026\u005E8JHg2j9UY\u0026",
+            "debugBoxCssUrl": "https://a.smedata.sk/monitor/bundles/smeadvertmanagerserver/css/ad_debug_box.css?r=70b",
+            "pageLayoutType": smeAdvertLayoutType(),"userApiUrl": "https://proxy.sme.sk/api/user/v1/init","verboseMode": false
+        });
+    });
+</script>
+<!-- END MAIN priority_header -->
+<!-- BEGIN GoogleDFP -->
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.addProvider("gtg", smeAdManager.googletagProvider);
+    });
+</script>
+<!-- END GoogleDFP -->
+<!-- BEGIN MAIN priority_header_init -->
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.initServices();
+    });
+</script>
+<!-- END MAIN priority_header_init -->
+<!-- END SmeAdvertManager-Position: _priority_header -->
+
+
+
+<!-- BEGIN SmeAdvertManager-Position: _header -->
+<!-- TAGS: site=article | section=blog | default=blog-->
+<!-- https://support.google.com/dfp_premium/answer/1638622?hl=en -->
+<!-- https://developers.google.com/doubleclick-gpt/reference -->
+
+<style>
+    .artemis-promo-labels{font-size:1.25rem;line-height:1.8rem;margin:1rem auto .5rem;text-align:left;height:20px;display:inline-block;width: 100%}.fonts-loaded .artemis-promo-labels{font-family:"open-sans-regular",Arial,sans-serif}.artemis-promo-labels:after{content:" ";display:table;clear:both}.artemis-promo-labels a{display:inline-block;color:#7f7f7f}.artemis-promo-labels a:hover{text-decoration:underline}.artemis-promo-link-1,.artemis-promo-link-2{position:relative;top:-2px}.artemis-promo-link-2{float:right;margin-right:10px}.artemis-promo-close{color:#7f7f7f;float:right}.artemis-promo-close,.artemis-promo-close:hover{text-decoration:none}.artemis-promo-close span{margin-right:4px}
+</style>
+
+
+<script>
+    /* load intersectionObserver polyfill for IE, Safari */
+    (function(){if("function"===typeof window.IntersectionObserver)return!1;var a=document.createElement("script");a.src="https://a.smedata.sk/monitor/bundles/smeadvertmanagerserver/js/libs/intersection-observer-polyfill.min.js?r=70b";a.async=false;document.head.appendChild(a)})();
+</script>
+
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.addProvider('gtg', smeAdManager.googletagProvider);
+    });
+
+    smeAdManager.cmd.push(function () {
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'big_1',
+                    'layoutType': 'original','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/widea','sizes': [[980,120],[1,1],[1000,100],[970,90],[1000,200],[970,250],[728,90],[750,100],[930,180],[990,100],[1000,315]],
+                    'divId': 'div-gpt-ad--43112356-blog-widea-0-5290',
+                    'maxWidth': 0,'lazy': false,'refreshAfter': 0});
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'side_1',
+                    'layoutType': 'original','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/squarea','sizes': [[180,90],[300,300],[125,125],[240,400],[320,50],[120,600],[200,200],[300,100],[1,1],[300,600],[180,150],[200,90],[250,250],[300,250],[336,280],[320,100],[250,360],[160,90],[300,50]],
+                    'divId': 'div-gpt-ad--43112356-blog-squarea-0-5292',
+                    'maxWidth': 0,'lazy': false,'refreshAfter': 0});
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'side_1',
+                    'layoutType': 'responsive_1','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/msquarea','sizes': [[180,90],[300,300],[125,125],[320,50],[200,200],[300,100],[180,150],[200,90],[250,250],[300,250],[320,100],[160,90],[300,50],[1,1]],
+                    'divId': 'div-gpt-ad--43112356-blog-msquarea-0-5300',
+                    'maxWidth': 0,'lazy': true,
+                        'lazyLoadOffset': 200,'refreshAfter': 0});
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'side_2',
+                    'layoutType': 'original','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/squareb','sizes': [[180,90],[300,300],[125,125],[240,400],[320,50],[120,600],[200,200],[300,100],[300,600],[180,150],[200,90],[250,250],[300,250],[336,280],[320,100],[250,360],[160,90],[300,50]],
+                    'divId': 'div-gpt-ad--43112356-blog-squareb-0-5294',
+                    'maxWidth': 0,'lazy': true,
+                        'lazyLoadOffset': 250,'refreshAfter': 0});
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'side_2',
+                    'layoutType': 'responsive_1','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/msquareb','sizes': [[180,90],[300,300],[125,125],[320,50],[200,200],[300,100],[180,150],[200,90],[250,250],[300,250],[320,100],[160,90],[300,50],[1,1]],
+                    'divId': 'div-gpt-ad--43112356-blog-msquareb-0-5301',
+                    'maxWidth': 300,'lazy': true,
+                        'lazyLoadOffset': 250,'refreshAfter': 0});
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'megaboard',
+                    'layoutType': 'original','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/wideb','sizes': [[990,315],[1000,100],[1000,200],[970,250],[728,90],[750,100],[990,100],[980,120],[970,90],[930,180],[750,300],[1000,315]],
+                    'divId': 'div-gpt-ad--43112356-blog-wideb-0-5295',
+                    'maxWidth': 0,'lazy': true,
+                        'lazyLoadOffset': 250,'refreshAfter': 0});
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'article_after',
+                    'layoutType': 'original','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/squarec','sizes': [[180,90],[300,300],[125,125],[240,400],[320,50],[120,600],[200,200],[300,100],[300,600],[180,150],[200,90],[250,250],[300,250],[336,280],[320,100],[250,360],[160,90],[300,50]],
+                    'divId': 'div-gpt-ad--43112356-blog-squarec-0-5296',
+                    'maxWidth': 0,'lazy': true,
+                        'lazyLoadOffset': 250,'refreshAfter': 0});
+                
+                smeAdManager.mngr.defineSlot('gtg', {
+                    'positionName': 'article_after',
+                    'layoutType': 'responsive_1','useUserDisplayResolver': true,'adUnitPath': '/43112356/blog/msquarec','sizes': [[180,90],[300,300],[125,125],[320,50],[200,200],[300,100],[180,150],[200,90],[250,250],[300,250],[320,100],[160,90],[300,50]],
+                    'divId': 'div-gpt-ad--43112356-blog-msquarec-0-5299',
+                    'maxWidth': 300,'lazy': true,
+                        'lazyLoadOffset': 250,'refreshAfter': 0});                
+        smeAdManager.mngr.setTargeting('gtg', 'advm_domain', window.location.hostname.substr(0, 40));
+        smeAdManager.mngr.setTargeting('gtg', 'advm_url', window.location.pathname.substr(0, 40));
+        //--local paramters--
+
+        smeAdManager.mngr.start('gtg');
+    });
+</script>
+<!-- END Googletag-->
+<!-- END SmeAdvertManager-Position: _header -->
+
+<div class="js-deep-bar-gray"><!-- WEB_HEADER_CORPORATE v3.1 -->
+<script>
+
+var smeCorpBar=function(){function e(e){return-1!==e.indexOf("?url=")||-1!==e.indexOf("&url=")?e:(e+=-1!==e.indexOf("?")?"&":"?",e+"url="+encodeURIComponent(window.location.href))}function n(){if(!o){o=!0;var n,r=document.getElementsByClassName("js-sme-corpbar-user-login-social");for(n=0;n<r.length;n++)r[n].href=e(r[n].href);document.getElementById("js-sme-corpbar-user-login-form").action=e(document.getElementById("js-sme-corpbar-user-login-form").action) }}function r(){t||(t=!0,document.getElementById("js-sme-corpbar-user-logout").href=e(document.getElementById("js-sme-corpbar-user-logout").href))}var o=!1,t=!1;return{initializeLoginPopup:function(){n()},initializeProfilePopup:function(){r()},addCurrentUrlAsTargetUrlParam:function(n){return e(n) }}}();
+function sme_cl_isHidden(el) {
+    var style = window.getComputedStyle(el);
+    return (style.display === 'none')
+}
+function sme_cl_toggle(event, element){
+    var hidden = sme_cl_isHidden(document.getElementById(element));
+    document.getElementById('js-services').classList.remove('is-visible');
+    document.getElementById('js-news').classList.remove('is-visible');
+    document.getElementById('js-sme-corpbar-mobile').classList.remove('is-visible');
+    if (hidden){
+        document.getElementById(element).classList.add('is-visible');
+        document.getElementById(element).classList.remove('is-hidden');
+       document.getElementById('js-sme-corpbar-user-login-email').blur();
+    } else {
+        document.getElementById(element).classList.add('is-hidden');
+        document.getElementById(element).classList.remove('is-visible');
+        document.getElementById('js-sme-corpbar-user-login-email').blur();
+    }
+
+    smeCorpBar.initializeLoginPopup();
+}
+function sme_cl_showMobileDropdown(event, element){
+    if (Math.max(document.documentElement.clientWidth, window.innerWidth || 0) < 768) {
+        sme_cl_toggle(event, element);
+    }
+}
+function sme_cl_showDropdown(event, element){
+    sme_cl_toggle(event, element);
+}
+function sme_cl_hideDropdown(){
+    document.getElementById('js-user-login-popup').classList.remove('is-visible');
+    document.getElementById('js-user-logged-popup').classList.remove('is-visible');
+}
+
+function sme_cl_login() {
+    window.scrollTo( 0, 0 );
+    sme_cl_showDropdown(null, 'js-user-login-popup');
+}
+
+function sme_cl_hideLogoutLink(){
+    document.getElementById('js-sme-corpbar-user-logout').classList.add('is-hidden');
+}
+if(window.location.hash && window.location.hash === '#login') {
+    sme_cl_login();
+}
+</script>
+<!-- SME - Pager 2 (exp-23) -->
+<div id="sme-corpbar">
+	<div class="sme-corpbar-wrap">
+		<ul>
+			<li>
+				<a href="http://www.sme.sk/?ref=hlav" class="home" title="SME.sk">
+					<svg fill="#cf2528" viewBox="0 0 68 24" width="35px" height="100%">
+						<title>sme-logo</title>
+						<path d="M0 21.192v0c6.017 3.451 18.802 4.424 18.846-6.017 0-5.751-9.335-5.663-9.335-8.007 0-2.831 5.928 0.265 6.503 0.708 0.796-1.991 1.637-3.982 2.477-5.972-5.84-3.141-17.253-3.229-17.253 6.238 0 5.707 8.892 5.397 8.892 7.875 0 3.406-7.123-0.929-7.521-1.194-0.841 2.124-1.725 4.247-2.61 6.37zM42.382 23.138h8.052l-3.628-22.783h-8.45l-3.274 12.299h-0.133l-3.097-12.299h-8.45l-3.893 22.783h8.096l1.327-13.183 3.628 13.183h4.866l3.628-13.183 1.327 13.183zM52.689 23.138v0.044h15.44v-6.194h-7.388v-2.389h6.547v-5.84h-6.547v-2.212h7.211v-6.194h-15.263v22.783z"></path>
+					</svg>
+				</a>
+			</li>
+			<li>
+			<span class="is-visible-mobile link" id="js-sme-home">Viac<svg  width="12" height="12" viewBox="0 0 1024 1024">
+				<path fill="#313131" class="path1" d="M316 334l196 196 196-196 60 60-256 256-256-256z"></path>
+				</svg>
+			</span>
+			</li>
+		</ul>
+		<ul class="sme-corpbar-mobile" id="js-sme-corpbar-mobile">
+			<li class="is-hidden-mobile-wide">
+				<a href="http://www.sme.sk/?ref=hlav" class="home" title="SME.sk">
+					<svg fill="#cf2528" viewBox="0 0 68 24" width="36px" height="100%">
+						<title>sme-logo</title>
+						<path d="M0 21.192v0c6.017 3.451 18.802 4.424 18.846-6.017 0-5.751-9.335-5.663-9.335-8.007 0-2.831 5.928 0.265 6.503 0.708 0.796-1.991 1.637-3.982 2.477-5.972-5.84-3.141-17.253-3.229-17.253 6.238 0 5.707 8.892 5.397 8.892 7.875 0 3.406-7.123-0.929-7.521-1.194-0.841 2.124-1.725 4.247-2.61 6.37zM42.382 23.138h8.052l-3.628-22.783h-8.45l-3.274 12.299h-0.133l-3.097-12.299h-8.45l-3.893 22.783h8.096l1.327-13.183 3.628 13.183h4.866l3.628-13.183 1.327 13.183zM52.689 23.138v0.044h15.44v-6.194h-7.388v-2.389h6.547v-5.84h-6.547v-2.212h7.211v-6.194h-15.263v22.783z"></path>
+					</svg>
+				</a>
+			</li>
+			<li>
+			<span class="link">Správy<svg width="12" height="12" viewBox="0 0 1024 1024">
+					<path fill="#313131" class="path1" d="M316 334l196 196 196-196 60 60-256 256-256-256z"></path>
+				</svg>
+			</span>
+				<ul class="sec sec-2" id="js-news">
+<li><a href="https://www.sme.sk/najnovsie?ref=hlav">Najnovšie</a></li>
+<li><a href="https://www.sme.sk/najcitanejsie?ref=hlav">Najčítanejšie</a></li>
+<li><a href="https://domov.sme.sk/?ref=hlav">Domov</a></li>
+<li><a href="https://regiony.sme.sk/?ref=hlav">Regióny</a></li>
+<li><a href="https://korzar.sme.sk/?ref=hlav">Korzár</a></li>
+<li><a href="https://ekonomika.sme.sk/?ref=hlav">Ekonomika</a></li> 
+<li><a href="https://svet.sme.sk/?ref=hlav">Svet</a></li>
+<li><a href="https://spectator.sme.sk/?ref=hlav">Slovak Spectator</a></li>
+<li><a href="https://kultura.sme.sk/?ref=hlav">Kultúra</a></li>
+<li><a href="https://sport.sme.sk/?ref=hlav">Šport</a></li>
+				</ul>
+			</li>
+			<li><span class="link">
+			Služby<svg width="12" height="12" viewBox="0 0 1024 1024">
+				<path fill="#313131" class="path1" d="M316 334l196 196 196-196 60 60-256 256-256-256z"></path>
+			</svg>
+		</span>
+				<ul class="sec sec-2" id="js-services">
+<li><a href="https://tvprogram.sme.sk/?ref=hlav">TV program</a></li>
+<li><a href="https://inzeraty.sme.sk/?ref=hlav">Inzeráty</a></li>
+<li><a href="http://nanicmama.sme.sk/?ref=hlav">Naničmama</a></li>
+<li><a href="http://peniaze.sme.sk/?ref=hlav">Osobné financie</a></li>
+<li><a href="http://praca.sme.sk/?ref=hlav">Práca</a></li>
+<li><a href="http://vysokeskoly.sme.sk/?ref=hlav">Vysoké školy</a></li>
+<li><a href="http://reality.sme.sk/?ref=hlav">Reality</a></li>
+<li><a href="https://recenzie.sme.sk/?ref=hlav">Recenzie</a></li>
+<li><a href="https://restauracie.sme.sk/?ref=hlav">Reštaurácie</a></li>
+				</ul>
+			</li>
+<li><a href="https://pocasie.sme.sk/?ref=hlav">Počasie</a></li>
+<li><a href="https://blog.sme.sk/?ref=hlav">Blogy</a></li>
+<li><a href="https://zlavy.sme.sk/?ref=hlav">Zľavy</a></li>
+<li><a href="https://volby.sme.sk/prezidentske-volby/2019?ref=hlav">Prezidentské voľby 2019</a></li>
+<li><a href="https://www.sme.sk/mapa-stranky/?ref=hlav">Viac</a></li>
+		</ul>
+		<div class="sme-corpbar-user  is-hidden" id="js-sme-corpbar-user-logged">
+			<a href="https://www.sme.sk/predplatne/?ref=hlav" class="js-subscription-button no-active-subscription subscription-btn"><span class="is-hidden-mobile">KÚPIŤ&nbsp;</span>PREDPLATNÉ</a>
+			<a href="https://www.sme.sk/predplatne/?ref=hlav" class="js-subscription-button no-recurent-subscription is-hidden subscription-btn"><span class="is-hidden-mobile">PREDĹŽIŤ&nbsp;</span>PREDPLATNÉ</a>
+			<a href="https://post2.sme.sk/user-state?ref=hlav">
+				<svg width="20px" height="14px" class="post-icon" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g transform="translate(-257.000000, -11.000000)">
+							<g transform="translate(0.000000, -1.000000)">
+								<image x="257" y="12" width="20" height="13.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAbCAYAAAAOEM1uAAAAAXNSR0IArs4c6QAAAhtJREFUWAntl81OwkAUhYsU1pooIT6BBowPAosmbUngATQhvgO6dO9G14Yf2yqJPxsTNzyCEJ9AY4iJroEEz1WGXIcBKe2iizZp5t7L7ZnDNzMlJCzLOtY0rYY7itfJWhRdcU+RN6hzt4rYSaVS1Uaj8aH4LHDJMIz1ZDJ5mkgkDuaJyQSf0PjOmu3hcPhsmqbBaqGEpKnr+otkjuYmD9NLNtgZjUa74/H4YtqhaVmI3OAwXZXL5U1WXykkajB3TpoQyDIRWq095B1W02SDWrvd/vI87xAmC2h8Zc1Eswdxk9V8hbZtF0CtJ1HrQ8R0Xbek2kozBsWMMPkAmnmJZgbirl+aghq07qC/LebASNRyMHfNan/CuQapS9CEqSLSN/bkD00QsVhNGeLLFFXUYNaaR40LLTQoGh3HuQfNnEwTuUM0YXRL9IqxUqls0F5Dfot7hhpWyBO9i8alDJLAIpow2uU0idpgMOjKe21Zatzw0gbFQ0QT+2YfeVPUMGYmNFsw10IuU2vSXluWGtPV/ntR895pPDltZVC7hDF6JYklLE2bfoM+Pq+uYkzo+CYoHqSRaKbTafmkixYHS5wPYo6EViIoHNBYr9c/MRyC5iNonVENxo5g3qU46BWIIJ+cDOGk79AdljnSD0yQm6STzvMw4tAIhmFGpREbVFHxU4sJ+qGl6o0Jqqj4qcnvwRp+7CP1HzleYj/Lqer9BtqK4mjgV9EcAAAAAElFTkSuQmCC"></image>
+							</g>
+						</g>
+					</g>
+				</svg>
+				<span class="is-hidden-mobile post-login-text">POST.sk</span>
+			</a>
+			<div class="logged" id="js-sme-user-logged">
+				<span>
+					<svg width="22px" height="22px" class="login-icon" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g transform="translate(-362.000000, -1.000000)">
+								<image id="icons8-checked_user_male" x="362.5" y="1.5" width="21" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAABw1JREFUWAm1mGtsVFUQx7vttgVtarHVqLCW1ldR8VVNjHSlpaZaEIHGGsFEMAEJGCMhYsQPUL6IRINIgo9AjEIwhopQUmhoC21tE0MiksgHIVTaUFE+UBCoCX37m9sz19vdu927u+UkZ2fOnJk5/zNnzuOuL8ljKSsru3lwcHD+8PDwfEwepgaMaRf0pM/nq0lJSdlfX1//r5GPK0mJ5q2qqiqZsnxoaOhHdF+nPkjNoaaZKvxD1Aom8UZ+fn5PR0fHr7THtfjG8iZRHBgY2IlOxVh6oX1E92BaWtqiurq6q6F98baTIxkWFham9vf319LvBHkWEO8S3el+vz9DKtF+BJ01RLNDfcHP6e3t3S8+VJYo9UdykJWVtYUBi00/7PDGnJycDdXV1X0hNidpn6ysrNx66dKlKvTepy0rVYKPT6DvUBMurktfXFz8GJE6jncr4kRx1ZEjRz7zMtqsWbNWofep0R3C9nFsf/NiO5aO69IDch1G2veDV5Ay0NGjR7dA9glPER/iK+GiYGxHRDODRrkRDHPkfGB3emRY/rWoDos6/GzZlB5NI6qFASWaQbQniAXLdryhoeFMROsIHU1NTafpOmG6J7IpiyKoehaHAQXc3WpNNH5RPlaKH9vW6TNWP6ofBpSObO1kgMvKx0G71QY/tykfL3UDal+BnJe3xuuY1ZAbyyr46VE+XhoGFKd2ThKJJ+N1jO1TDlvJ2YRKGFAS/2c89huvT5SWlt4f6wicHAVE9FFj1wd/LFYfofphQNva2i4TjUNG0ccgG0ONorU5OcRGL5Pa5ubmf6LZROsPAyoGLL8MZJ2D0Apz20hX1MIKrEZJnoJS5Gb6aIRN7Nf1mdfZ2Xk+Ly/vDlxrjj5Pe0JBQUFbe3v7oNuQ5eXl6YFA4EP6NlA1mtu4qXa46ccqU4dhdjIwL6DDdMx0dHaSCp+ztId5RJ8VOTdXPuQF5CugU6lamtLT08t56vWqIBEaEag4NWC/gX1V2jGU7wG5REEGg8E75X2KfQkTmg6Vo0tSS74OOkiPg0y8hlz+k7ZrGRPo3Llzb+rp6XkLR5Kzrmni4nUQMGszMjK2Xbt2LZOIb6K9EL1ob9MBxvm6r6+vqrW19e9QvxGBsoHkYSL5dVeokcf2BfTkzZDlUV/VrjKxRbwXDqpAqNuu9wHyY/pE0QnyHDPeihPJxwJ53XM6TERnCu051M3wzqWTzegEWY/9UrU19tPQWUZtoGrJRO9ASUnJShUIHRVRXukp3d3dEsUl0ikFx10Yrs/Ozt7J6951x49oJiXJp0dmZuZ29BerDHqKzbessbGxzSELYznWgoy1nY4HTKek0DyN7CigzGITg7ynXuD3kmOLvX4CsxKTsZVPk0nGRxMgFwDyivoci3KjZTHmPmqx0bvCTTlNctZeekDOQ2GNOmI2m3nZV3oFKXbYyzmqICWSnkGKvdxgjLsAVt8Gt5Ai66XPiqi8wEH+OwMFLCGRFJDwcoR4KvgI8Gn9B8rW7gZkMNpyhzgWLNZ4rMyz8C2mfwA61YooIFcrSGbUJcutRkY5KsHHyyjpEVQfC0jZG6zoLgBWyUDcZj+Bo1F4ih9+XjJ54Qfk8hGZtXzrYlluh91zDn6P8koBUiGAtK1UZBcvXvwWDK8hW69gads+WJ3ZyQjKUJBNIOUcu3vXCBvbL7OWo8YqHFujdrgMzjh7BZATbAhIyxY/98rfSPhoNe7k5LlHolmiAvj90Y4g1Q2l2N6uMm6Xv5SXSMKPbAiiBtgkAEpqJTkiaakDaDd/ciwG6NCMGTPOcw1bcn4m+/l5RlvMQt+hKoqFDrkpM3ANgHYzEVlaORkssMqrjYKMFKhkFKydLgbkQocaxkHtKPIAsW80GViiJEDUp4BV4CJzA5mamqrpKCrnJUftr87r16+HPQZEy2ORo8kq+AwqL9QNrPa7gZQ+fMgRpaXdz1GQ8L8Y4g3Hhxh0tvH8ClSuYrsIWMlNyVF0rTSIBFKM0BEfWg5ZB762EqEcc1NM6kjeWxHh0rB3rvqWnW7eE0mcMEvdcpINOBOgzcZmgHM9d9yAilMeFl8RpTfNAKfZnE+7fdjJ8SM6sruNrk2KioomkePHENxnhF+y6ivGFai85NkEpxggUwYBdDN1gRtYA2IUMSD3IZxpOq4w2QLsL9iPklEWcTbklQOwRZhbkWL5ikmHYxz4zo3h6l2W20RSQQ6iuFBAisG4RlQRMOhKQG6lbV+ZTKAR2R6At/F46RJdXkYBvpWCyGXjlIrMFAH5Nkv+hQpuCFBxDtg5APgO1koDHdADlbfrQkDWOXXtGTuF48Hz38CZ3NzcHURQvpsKqdHSTD7udvAKq2xpaTkRiuGGRdQ5EDkqt8xL1BepedQAVYp85pwlLWo5gg7wp7F9u410///7H4AwzsCunmP6AAAAAElFTkSuQmCC"></image>
+							</g>
+						</g>
+					</svg>
+					<span class="link post-login-text is-hidden-mobile" id="js-sme-corpbar-user-username">
+						USERNAME@akjfkjhf.sk
+					</span>
+				</span>
+				<ul class="sec sme-corpbar-mobile" id="js-user-logged-popup">
+					<li><a href="https://profil.sme.sk/?ref=hlav">Môj profil</a></li>
+					<li><a href="https://profil.sme.sk/predplatne?ref=hlav">Online predplatné</a></li>
+					<li><a href="https://profil.sme.sk/reklama?ref=hlav">Vypnutie reklamy</a></li>
+					<li><a href="https://www.sme.sk/c/6662272/sme-sk-pre-smartfony.html?ref=hlav">Aplikácie pre smartfóny</a></li>
+					<li><a href="https://prihlasenie.sme.sk/logout?ref=hlav" id="js-sme-corpbar-user-logout">Odhlásenie</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sme-corpbar-user" id="js-sme-corpbar-user-unlogged">
+			<a href="https://www.sme.sk/predplatne/?ref=hlav" class="js-subscription-button no-active-subscription subscription-btn"><span class="is-hidden-mobile">KÚPIŤ&nbsp;</span>PREDPLATNÉ</a>
+			<a href="https://www.sme.sk/predplatne/?ref=hlav" class="js-subscription-button no-recurent-subscription is-hidden subscription-btn"><span class="is-hidden-mobile">PREDĹŽIŤ&nbsp;</span>PREDPLATNÉ</a>
+			<a href="https://post2.sme.sk/user-state?ref=hlav">
+				<svg width="20px" height="14px" class="post-icon" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g transform="translate(-257.000000, -11.000000)">
+							<g transform="translate(0.000000, -1.000000)">
+								<image x="257" y="12" width="20" height="13.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAbCAYAAAAOEM1uAAAAAXNSR0IArs4c6QAAAhtJREFUWAntl81OwkAUhYsU1pooIT6BBowPAosmbUngATQhvgO6dO9G14Yf2yqJPxsTNzyCEJ9AY4iJroEEz1WGXIcBKe2iizZp5t7L7ZnDNzMlJCzLOtY0rYY7itfJWhRdcU+RN6hzt4rYSaVS1Uaj8aH4LHDJMIz1ZDJ5mkgkDuaJyQSf0PjOmu3hcPhsmqbBaqGEpKnr+otkjuYmD9NLNtgZjUa74/H4YtqhaVmI3OAwXZXL5U1WXykkajB3TpoQyDIRWq095B1W02SDWrvd/vI87xAmC2h8Zc1Eswdxk9V8hbZtF0CtJ1HrQ8R0Xbek2kozBsWMMPkAmnmJZgbirl+aghq07qC/LebASNRyMHfNan/CuQapS9CEqSLSN/bkD00QsVhNGeLLFFXUYNaaR40LLTQoGh3HuQfNnEwTuUM0YXRL9IqxUqls0F5Dfot7hhpWyBO9i8alDJLAIpow2uU0idpgMOjKe21Zatzw0gbFQ0QT+2YfeVPUMGYmNFsw10IuU2vSXluWGtPV/ntR895pPDltZVC7hDF6JYklLE2bfoM+Pq+uYkzo+CYoHqSRaKbTafmkixYHS5wPYo6EViIoHNBYr9c/MRyC5iNonVENxo5g3qU46BWIIJ+cDOGk79AdljnSD0yQm6STzvMw4tAIhmFGpREbVFHxU4sJ+qGl6o0Jqqj4qcnvwRp+7CP1HzleYj/Lqer9BtqK4mjgV9EcAAAAAElFTkSuQmCC"></image>
+							</g>
+						</g>
+					</g>
+				</svg>
+				<span class="is-hidden-mobile post-login-text">POST.sk</span>
+			</a>
+			<div class="sme-corpbar-user-wrapper" id="js-sme-user">
+				<svg width="15px" height="17px" class="login-icon" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+						<g transform="translate(-447.000000, -3.000000)">
+							<g transform="translate(351.000000, 3.000000)">
+								<image id="icons8-gender_neutral_user" x="96.5" y="0.5" width="15" height="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAYAAABIiGl0AAAABGdBTUEAALGOfPtRkwAABNtJREFUWAm1l21IpFUUx3de1FVRR2GN0DbXFN2kXRZDqg2UFMX1bUSEhS2qD1Fs9LUg2b5UUF+ChV72W0QLGwmr42tJukhs9DYbaWDS2O5kZhqxa2KOjs70O7Nzhmef51FH1y7cOefee87/f86957nPM44Du2ydnZ0Prq2tnXA4HPniGo1GF10u17Wenp6p3UA5kjGuqak56PF4XnQ6nS/QS+x8IpHILwRxYXJy8r1AILBmZ2Oc25G4paXlkZSUlE8gvN/ouJW+sbFxgwBO+3y+b7aykfltib1ebweEF+kHFWRzc/Mm+ijgv8UAHI7DyFq2O1dtyD7E+hm2/7LOmeWWxPFMrxhIFzjXru7u7o8A2TACVVZWphQUFDwD+Rv02NkLOb26t7f3W6Ot6rbEcqZ5eXk/6/aS5WQoFDo1PDz8uzrayfr6+vsyMzMHIX9I1iG+PjExcdTuzJ12APFC0jNdSIZUcEZGRmZXVlaaCHRRxgR+pKKi4qzo5mZLjMPzari+vv7qTpmqrUgh53zP6RzZJ0fc0NBQAXGpOEohzc3NfawgycrZ2dkP8b0l9mCVtLe3HzX7WjJOTU09ZjAa9fv9YcM4KVV8yHpMjQniuOoqLcRpaWkFuoi8YdB3pZLpdXVAN2LGpi3EROpWBx4f26rX9e0kFW30dZlt7Yj/VCOC0MrWqd3IIjUm/gXVVVqIqeIfdBFZK5eDYZyUyiOU6na7a9WYl8o11VVaiAcGBibYpqAY8CjkFhYWPq3GycqSkpJnsc0Re7lEhoaGfjL7WogxiFKFH6ghhfGm3Eg63knW1dUdJuDX1Q7/99GjOlZpR3xgdXX1XUPW+XINJkMupDk5OYOQHRICyZYmxJZmqTaxmJmZCRcXF/uJ/EkKwwXQPZzZmfLy8n8IYmJ+fj5iRJI6qKqqei49PV1en0dkDdJ19LbR0dFfjbaqG0te5xKyra2tBfJLAGTqpNxIcjkQUKwOpPLjhRQ7U7GDdCUcDp/u7+8fUD+z3JZYjLnuqhFfEEDi+TaDGMcEJq/MOt7F48Z5s2671XEjd0dHx0tke56ebXbcaoyttEaOZW1qasqPnaWwxNc2Y748isjwItt50kSwyTZ+z/YG6PJhIP752MpLpZJ+RyJk/+XS0tJTY2NjQROOlbi1tfUEZ/Y5UccqUxwgCwDyNpeLj1fkX2YQGTc2Nh7i28yL3yv4P6A2+C1y3vXcDz/qnMg7Mob0GNGP0z2yCGEI8XIwGLyQ7FtKbq3S0tKzYLzFhqQJDuQ3ub2quUgmZSwtQdzU1JRLxN9ptBjPQ9y+09fibRjrr3yzgXWZAO6VVfn6XF5efpjH628ZJy4QSM8bSG9h+MReSQWYR+lrRC19ScZgF2VnZ78jurRYxs3NzY9CfJXoHGQZgbSpr6/vs9smd/cL9imwBwSbXYyC/ZgEFcuYl/85WRAKqvXSfpEKHkU1RC6fii4cZN4lulPuV4qgXgYYhKnc10TfzwZ+l2ALJuQ8AI2FzqysLK+MZZLFK4ODg7Z3q6zvtfFRPwP5eNzflZGR4XUSweMGwF6Dvt+qTwFJ8KSTA098VaJv+0dLHfciuUSkymONOjruZAsSNxTEf+ji/yAT2MLpKisr8xDBV/SrlHk/hLaX+t0GMj09/S9cacJD9/8HfYoP5QnVqAYAAAAASUVORK5CYII="></image>
+							</g>
+						</g>
+					</g>
+				</svg><span class="is-hidden-mobile link post-login-text">Prihlásenie</span>
+				<div class="sme-corpbar-user-popup" id="js-user-login-popup">
+					<form action="https://prihlasenie.sme.sk/login_check?ref=hlav" method="POST" id="js-sme-corpbar-user-login-form">
+						<div>
+							<a href="https://prihlasenie.sme.sk/login-google?ref=hlav"
+							   class="sme-corpbar-btn sme-corpbar-btn-social-g js-sme-corpbar-user-login-social"
+							   title="Google">
+								<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g transform="translate(-12.000000, -60.000000)">
+											<g>
+												<g id="google" transform="translate(0.000000, 52.000000)">
+													<g id="super-g" transform="translate(12.000000, 8.000000)">
+														<path d="M11,4.25333333 C13.0655556,4.25333333 14.4588889,5.14555556 15.2533333,5.89111111 L18.3577778,2.86 C16.4511111,1.08777778 13.97,0 11,0 C6.69777778,0 2.98222222,2.46888889 1.17333333,6.06222222 L4.73,8.82444444 C5.62222222,6.17222222 8.09111111,4.25333333 11,4.25333333 L11,4.25333333 Z" fill="#EA4335"></path>
+														<path d="M21.56,11.2444444 C21.56,10.34 21.4866667,9.68 21.3277778,8.99555556 L11,8.99555556 L11,13.0777778 L17.0622222,13.0777778 C16.94,14.0922222 16.28,15.62 14.8133333,16.6466667 L18.2844444,19.3355556 C20.3622222,17.4166667 21.56,14.5933333 21.56,11.2444444 L21.56,11.2444444 Z" fill="#4285F4"></path>
+														<path d="M4.74222222,13.1755556 C4.51,12.4911111 4.37555556,11.7577778 4.37555556,11 C4.37555556,10.2422222 4.51,9.50888889 4.73,8.82444444 L1.17333333,6.06222222 C0.427777778,7.55333333 0,9.22777778 0,11 C0,12.7722222 0.427777778,14.4466667 1.17333333,15.9377778 L4.74222222,13.1755556 L4.74222222,13.1755556 Z" fill="#FBBC05"></path>
+														<path d="M11,22 C13.97,22 16.4633333,21.0222222 18.2844444,19.3355556 L14.8133333,16.6466667 C13.8844444,17.2944444 12.6377778,17.7466667 11,17.7466667 C8.09111111,17.7466667 5.62222222,15.8277778 4.74222222,13.1755556 L1.18555556,15.9377778 C2.99444444,19.5311111 6.69777778,22 11,22 L11,22 Z" fill="#34A853"></path>
+														<polygon points="0 0 22 0 22 22 0 22"></polygon>
+													</g>
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+								<span>Prihlásiť cez Google</span>
+							</a>
+							<a href="https://prihlasenie.sme.sk/login-facebook?ref=hlav"
+							   class="sme-corpbar-btn sme-corpbar-btn-social js-sme-corpbar-user-login-social"
+							   title="Facebook">
+								<svg width="11px" height="24px" viewBox="0 0 11 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+										<g transform="translate(-18.000000, -7.000000)" fill="#FFFFFF">
+											<g>
+												<g id="facebook">
+													<path d="M25.3147057,30.2222222 L20.4372418,30.2222222 L20.4372418,18.6096454 L18,18.6096454 L18,14.608341 L20.4372418,14.608341 L20.4372418,12.2060927 C20.4372418,8.94202502 21.8127074,7 25.7230238,7 L28.9776468,7 L28.9776468,11.0027701 L26.9435074,11.0027701 C25.4212558,11.0027701 25.3206665,11.5619267 25.3206665,12.6054903 L25.3139606,14.608341 L29,14.608341 L28.5685836,18.6096454 L25.3139606,18.6096454 L25.3139606,30.2222222 L25.3147057,30.2222222 Z"></path>
+												</g>
+											</g>
+										</g>
+									</g>
+								</svg>
+								<span>Prihlásiť cez Facebook</span>
+							</a>
+						</div>
+						<div class="sme-corpbar-or">
+							<span>Alebo</span>
+						</div>
+						<div class="margin-m">
+							<input type="text" name="username" placeholder="Váš e-mail alebo telefónne číslo" id="js-sme-corpbar-user-login-email"/>
+						</div>
+						<div class="margin-m">
+							<input type="password" name="password" placeholder="Vaše heslo" id="js-sme-corpbar-user-login-password" autocomplete="off"/>
+						</div>
+						<div class="sme-corpbar-pass">
+							<a href="https://prihlasenie.sme.sk/reset-request?ref=hlav" class="small">Zabudli ste heslo?</a>
+						</div>
+						<input type="hidden" name="_token" value="" id="js-sme-corpbar-user-login-form-token"/>
+						<input type="hidden" name="rememberMe" value="1"/>
+						<input type="submit" class="sme-corpbar-btn sme-corpbar-btn-login" value="Prihlásiť">
+						<div class="sme-corpbar-register">
+							Nemáte účet? <a href="https://registracia.sme.sk/?ref=hlav">Registrovať</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+/*code-24c*/
+    var sme_cl_user_loadEventTriggering=null;function sme_cl_user_isLoadEventTriggering(){return sme_cl_user_loadEventTriggering};
+
+    
+    // will be promise
+    var smeClWhenUserInfoLoaded = null;
+
+    (function() {
+        document.body.addEventListener('click', sme_cl_hideDropdown);
+        document.getElementById('js-user-login-popup').addEventListener('click', function(event){event.stopPropagation();});
+
+        document.getElementById("js-sme-home").addEventListener("click", function(event){sme_cl_showMobileDropdown(event, 'js-sme-corpbar-mobile');});
+        document.getElementById("js-sme-user-logged").addEventListener("click", function(event){sme_cl_showMobileDropdown(event, 'js-user-logged-popup'); event.stopPropagation();});
+        document.getElementById("js-sme-user").addEventListener("click", function(event){sme_cl_showDropdown(event, 'js-user-login-popup'); event.stopPropagation();});
+        (function(){if( typeof window.CustomEvent=== "function"){return false};function CustomEvent(event,params){params= params|| {bubbles:false,cancelable:false,detail:undefined};var evt=document.createEvent("CustomEvent");evt.initCustomEvent(event,params.bubbles,params.cancelable,params.detail);return evt}CustomEvent.prototype= window.Event.prototype;window.CustomEvent= CustomEvent})()
+
+        
+
+        function SmeClUserError(a,b,c){a=Error(a,b,c);a.user={state:"error"};Object.setPrototypeOf(a,Object.getPrototypeOf(this));Error.captureStackTrace&&Error.captureStackTrace(a,SmeClUserError);return a}SmeClUserError.prototype=Object.create(Error.prototype,{constructor:{value:Error,enumerable:!1,writable:!0,configurable:!0}});Object.setPrototypeOf?Object.setPrototypeOf(SmeClUserError,Error):SmeClUserError.__proto__=Error;
+var sme_cl_user={_base64_decode:function(c){if("function"!=typeof atob){c=c.replace(/\s/g,"");if(!/^[a-z0-9\+\/\s]+={0,2}$/i.test(c)||0<c.length%4)throw Error("Not a base64-encoded string.");var b=0;var a=[];for(c=c.replace(/=/g,"");b<c.length;){var d="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".indexOf(c.charAt(b));var e=b%4;switch(e){case 1:a.push(String.fromCharCode(f<<2|d>>4));break;case 2:a.push(String.fromCharCode((f&15)<<4|d>>2));break;case 3:a.push(String.fromCharCode((f&3)<<6|d))}var f=d;b++}a=a.join("")}else a=atob(c);return a},_strrev:function(c){for(var b="",a=c.length-1;0<=a;a--)b+=c.charAt(a);return b},_str_char_unshift:function(c,b){for(var a="",d=c.length,e=0;e<d;e++){var f=c.charCodeAt(e);a=97<=f&&122>=f?a+String.fromCharCode(97+(f-97+26-b)%26):65<=f&&90>=f?a+String.fromCharCode(65+(f-65+26-(b+2))%26):33<=f&&59>=f?a+String.fromCharCode(33+(f-33+27-(b+1))%27):a+String.fromCharCode(f)}return a},_decode:function(c){var b=this._base64_decode(c);b=this._strrev(b);b=this._str_char_unshift(b,9);var a=6,d=parseInt(b.substring(a,a+1),10);a++;var e=parseInt(b.substring(a,a+1),10);a+=e+2;a++;var f=this._str_char_unshift(b.substring(a,a+1),d+1);a++;a++;f+=this._str_char_unshift(b.substring(a,a+1),d+3);a+=3;a++;f+=this._str_char_unshift(b.substring(a,a+1),d+2);a+=2;a++;var g=this._str_char_unshift(b.substring(a,a+1),d+2);a+=e+1;a++;g+=this._str_char_unshift(b.substring(a,a+1),d+1);a+=2;a++;g+=this._str_char_unshift(b.substring(a,a+1),d+4);a+=2;a++;f=parseInt(f,16);g=parseInt(g,16);c=this._str_char_unshift(b.substring(a,a+f),d);a+=f+e+3;b=this._str_char_unshift(b.substring(a,a+g),d+1);return b=c+String.fromCharCode(64)+b},_authenticated:null,_localStorageAvailable:null,_loadInitialized:null,_getCookie:function(c){c+="=";for(var b=document.cookie.split(";"),a=0;a<b.length;a++){for(var d=b[a];" "===d.charAt(0);)d=d.substring(1,d.length);if(0===d.indexOf(c))return decodeURI(d.substring(c.length,d.length))}return null},_toJson:function(c){try{return JSON.parse(c)}catch(b){return this._outputError("json parse error",b),!1}},_isInt:function(c){return isNaN(c)?!1:0===c%1},_toInt:function(c){if(isNaN(c))return!1;var b=parseInt(c,10);return isNaN(c)?!1:b},_outputError:function(c,b){console.error("[SmeClUser] "+c,b)},_getUnixTimestamp:function(){return Math.round((new Date).getTime()/1E3)},_storeToCache:function(c,b,a){if(!b)return!1;var d=this._getUnixTimestamp();localStorage.setItem(c,JSON.stringify({value:b,created_at:d,ttl:d+a}))},_getFromCache:function(c){var b=localStorage.getItem(c);if(!b)return null;var a=this._toJson(b);if(!1===a)return this._outputError("Data in LS cache has contains invalid json, removing LS cache item",b),localStorage.removeItem(c),null;if(!a.hasOwnProperty("value")||!a.hasOwnProperty("ttl")||!a.hasOwnProperty("created_at")||a.hasOwnProperty("created_at")&&!this._isInt(a.created_at)||a.hasOwnProperty("ttl")&&!this._isInt(a.ttl))return this._outputError("Data in LS cache has invalid structure, removing LS cache item",a),localStorage.removeItem(c),null;if(this._getUnixTimestamp()>a.ttl)return localStorage.removeItem(c),null;if(a.value.hasOwnProperty("central_user_id")){if(!this._isInt(a.value.central_user_id))return localStorage.removeItem(c),null;b=this._getCookie("ppi");if(a.value.central_user_id!=b)return localStorage.removeItem(c),null;var d=this._getCookie("pwall_change");if(d){d=d.split("_");var e=this._toInt(d[1]);if(!1!==e&&b==d[0]&&a.created_at<=e+10)return localStorage.removeItem(c),null}}return a.value},_loadUserData:function(){smeClWhenUserInfoLoaded=new Promise(function(c,b){if(!1===sme_cl_user.isAuthenticated()){var a=new SmeClUserError("User is not signed in.");a.user={state:"signed_out"};b(a);return!1}if(!1===sme_cl_user.isLoadEventTriggering())return b(new SmeClUserError("Local storage is not supported. User info details cannot be retrieved.")),!1;if(!0===sme_cl_user._loadInitialized)throw Error("Load already initialized. This can be called only once");var d=sme_cl_user._getFromCache("sme_cl_user");if(d)sme_cl_user._onLoadUserDataSuccess(d),c(d);else{sme_cl_user._loadInitialized=!0;var e=new XMLHttpRequest;e.onreadystatechange=function(){if(4===e.readyState)if(200===e.status){var a=e.responseText;a&&(d=sme_cl_user._toJson(a),!1===d?(sme_cl_user._outputError("json rpc error: invalid json",a),sme_cl_user._onLoadUserDataError(),b(new SmeClUserError("JSON RPC error: invalid json"))):d.hasOwnProperty("result")?d.result.hasOwnProperty("central_user_id")?(d.result.state="signed_in",sme_cl_user._storeToCache("sme_cl_user",d.result,1800),sme_cl_user._onLoadUserDataSuccess(d.result),c(d.result)):(sme_cl_user._outputError("json rpc error, required data not available in the response",d),sme_cl_user._onLoadUserDataError(),b(new SmeClUserError("JSON RPC error: required data not available in the response"))):(sme_cl_user._outputError("json rpc error",d),sme_cl_user._onLoadUserDataError(),b(new SmeClUserError("JSON RPC error"))))}else sme_cl_user._onLoadUserDataError(),b(new SmeClUserError("HTTP API error"))};e.open("POST","https://profil.sme.sk/api/user/v1/jsonrpc",!0);e.setRequestHeader("X-Requested-With","XMLHttpRequest");e.withCredentials=!0;e.send('{"jsonrpc": "2.0", "method": "get_user", "params": [], "id": 999}')}})},_uiSubscription:function(c){var b=c.subscription.active;c=c.subscription.auto_renewable;!c&&b?(document.querySelector(".no-active-subscription").classList.add("is-hidden"),document.querySelector(".no-recurent-subscription").classList.remove("is-hidden")):(c&&b?document.querySelector(".no-active-subscription").classList.add("is-hidden"):document.querySelector(".no-active-subscription").classList.remove("is-hidden"),document.querySelector(".no-recurent-subscription").classList.add("is-hidden"))},changeSubscriptionHrefs:function(){var c=document.querySelectorAll(".js-subscription-button"),b=window.location.hostname;if(!(0>b.indexOf("korzar.sme")&&0>b.indexOf("spectator.sme"))){var a="";0<=b.indexOf("korzar.sme")&&(a="https://www.sme.sk/predplatne-korzar/");0<=b.indexOf("spectator.sme")&&(a="https://www.sme.sk/predplatne-spectator/");for(b=0;b<c.length;++b)c[b].href=a}},_onLoadUserDataSuccess:function(c){var b=new CustomEvent("smeClUserLoaded",{detail:c});document.body.dispatchEvent(b);this._uiSubscription(c)},_onLoadUserDataError:function(){var c=new CustomEvent("smeClUserLoadError",{});document.body.dispatchEvent(c)},_isLocalStorageAvailable:function(){if(null!==this._localStorageAvailable)return this._localStorageAvailable;if("undefined"===typeof localStorage)return!1;try{return localStorage.setItem("lcstrg_test","yes"),"yes"===localStorage.getItem("lcstrg_test")?(localStorage.removeItem("lcstrg_test"),this._localStorageAvailable=!0):this._localStorageAvailable=!1}catch(c){return this._localStorageAvailable=!1}},getEmail:function(){var c=this._getCookie("ppe");c&&!/^.*@.*$/.test(c)&&(c=this._decode(c));var b=null,a=/^([A-Za-z0-9_\-\.\+])+@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;c&&a.test(c)&&(b=c);return b},isAuthenticated:function(){return null!==this._authenticated?this._authenticated:null!==this.getEmail()?this._authenticated=!0:!1},isLoadEventTriggering:function(){return!1===this.isAuthenticated()?!1:this._isLocalStorageAvailable()},load:function(){this._loadUserData()}};
+                                sme_cl_user_loadEventTriggering = sme_cl_user.isLoadEventTriggering();
+
+        if (sme_cl_user.isAuthenticated()) {
+            document.getElementById('js-sme-corpbar-user-logged').classList.remove('is-hidden');
+            document.getElementById('js-sme-corpbar-user-unlogged').classList.add('is-hidden');
+            document.getElementById('js-sme-corpbar-user-username').innerHTML = sme_cl_user.getEmail();
+
+            smeCorpBar.initializeProfilePopup();
+        }
+        sme_cl_user.changeSubscriptionHrefs();
+        // initialize asynchronous call to load advanced data about the user
+        sme_cl_user.load();
+
+        function doAjax(url, callback) {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    callback(xmlhttp.responseText);
+                }
+            };
+            xmlhttp.open('GET', url, true);
+            xmlhttp.withCredentials = true;
+            xmlhttp.send();
+        }
+        var loginFormSubmitted = false;
+        document.getElementById('js-sme-corpbar-user-login-form').onsubmit = function(event) {
+            if (loginFormSubmitted === false && document.getElementById('js-sme-corpbar-user-login-form-token').value=='') {
+                loginFormSubmitted = true;
+                event.preventDefault();
+                doAjax('https://prihlasenie.sme.sk/get-csrf-token/login', function(csrfToken) {
+                    document.getElementById('js-sme-corpbar-user-login-form-token').value = csrfToken;
+                    document.getElementById('js-sme-corpbar-user-login-form').submit();
+                });
+            }
+            return true;
+        }
+    })();
+</script>
+<script>
+	var cookieBar = {
+		createCookie: function (name, days, domainCookie) {
+
+			var date = new Date();
+			var day = date.getDate();
+			var monthIndex = date.getMonth()+1;
+			var year = date.getFullYear();
+
+			var cookieValue = (day + '.' + monthIndex + '.' + year);
+			date.setTime(date.getTime() + days);
+			var expires = '; expires=' + date.toGMTString();
+			var domain = ';domain=.' + domainCookie;
+
+			document.cookie = name + '=' + cookieValue + expires + domain+';path=/';
+		},
+		readCookie: function (name) {
+			var nameEQ = name + '=';
+			var ca = document.cookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+			}
+			return null;
+		},
+		getDomainName: function (hostName){
+			return hostName.substring(hostName.lastIndexOf('.', hostName.lastIndexOf('.') - 1) + 1);
+		},
+		displayBar: function(barClass,display){
+			document.getElementsByClassName(barClass)[0].style.display = display;
+		},
+		mobileDeviceCheck: function() {
+			var check = false;
+			(function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|IEMobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))check = true})(navigator.userAgent||navigator.vendor||window.opera);
+			if( navigator.userAgent.toLowerCase().indexOf('lumia') > -1 ){
+				check = true;
+			}
+			return check;
+		}
+	};
+
+
+
+	document.addEventListener('DOMContentLoaded', function(event) {
+
+		if(cookieBar.mobileDeviceCheck() == false){
+			if(cookieBar.readCookie('cookie_aggree') == null){
+				cookieBar.displayBar('js-cookie-bar','block');
+			}
+			document.getElementsByClassName('js-confirm-cookie')[0].onclick = function(){
+				cookieBar.createCookie('cookie_aggree',31536000000,cookieBar.getDomainName(window.location.host));
+				cookieBar.displayBar('js-cookie-bar','none');
+			};
+		}
+
+	});
+</script>
+<!-- New SME info bar -->
+<div id="js-top-info-bar" style="position: relative; z-index: 99999">
+	<div id="js-top-info-bar-wrapper"
+		 style="z-index: 99999; -moz-transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; width: 100%; background: #161616; font-size: 14px; line-height: 18px; font-family: 'open-sans-regular', sans-serif; color: white; ">
+		<script>
+			function resizeGate() {
+				var gateTop = document.getElementById('gateTopId');
+				if (gateTop != null) {
+					var gateOffset = document.getElementById('gateTopId').style.offsetTop;
+					document.getElementById('gateLeftId').style.top = gateOffset;
+					document.getElementById('gateRightId').style.top = gateOffset;
+				}
+			}
+		</script>
+		<noscript>
+			<div style="max-width: 920px; margin: auto; padding: 1.3em 80px 1.3em 20px; position: relative;">
+				Aby naše stránky správne fungovali, je potrebné mať zapnutý Javascript.
+			</div>
+		</noscript>
+		<div class="js-cookie-bar"
+			 style="max-width: 920px; margin: auto; padding: 1.3em 80px 1.3em 20px; position: relative; display: none;">
+			Na zlepšenie našich služieb používame cookies. O ich používaní a možnostiach nastavenia sa môžete informovať bližšie <a href="http://www.sme.sk/c/7076706/zasady-nakladania-s-osobnymi-udajmi-uzivatelov.html" style="text-decoration: underline; color: white;">tu</a>.
+			<span class="js-confirm-cookie"
+				  style="border-radius: 2px; margin-left: 20px; padding: 5px 15px; position: absolute; top: 50%; transform: translate(0,-50%); -webkit-transform: translate(0,-50%); right: 10px; background: #353535; cursor: pointer;"
+				  onclick="document.getElementById('js-top-info-bar-wrapper').style.display='none';resizeGate();">OK</span>
+		</div>
+	</div>
+	<div style="position: absolute;" id="js-top-info-bar-placeholder"></div>
+	<script>
+		function getScrollPosition(){if(scrollObject={y:window.pageYOffset},scrollObject.y>offset+height){topBar.style.position="fixed",placeholder.style.position="static";var t="translate(0,"+height+"px)";topBar.style.webkitTransform=t,topBar.style.mozTransform=t,topBar.style.msTransform=t,topBar.style.oTransform=t,topBar.style.transform=t}else{placeholder.style.position="absolute",topBar.style.position="static";var t="translate(0,0)";topBar.style.webkitTransform=t,topBar.style.mozTransform=t,topBar.style.msTransform=t,topBar.style.oTransform=t,topBar.style.transform=t }}var topBar=document.getElementById("js-top-info-bar-wrapper"),offset=topBar.offsetTop,height=topBar.clientHeight,placeholder=document.getElementById("js-top-info-bar-placeholder");placeholder.style.height=height+"px",topBar.style.top=-height+"px",window.addEventListener("scroll",function(){getScrollPosition()});
+	</script>
+</div>
+</div>
+
+    <center class="megaboard-wrap no-print"><div class="blog-ad-position ad-position-big-1">
+
+<!-- BEGIN SmeAdvertManager-Position: big_1 -->
+<div id="div-gpt-ad--43112356-blog-widea-0-5290" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-widea-0-5290');
+    });
+</script>
+<!-- END SmeAdvertManager-Position: big_1 -->
+
+</div></center><div class="site-wrapper blogger-page"><header class="relative">
+            
+<div class="cf">
+    <div class="header-mobile-nav">
+        <span class="mobile-menu mobile-menu-js"><i data-icon="q"></i></span>
+        <span class="mobile-search mobile-search-js"><i data-icon="p"></i></span>
+    </div>
+    <a href="https://blog.sme.sk/" class="header-logo">Blog.SME.sk</a>
+</div>
+<form class="js-deep-container-search header-search search-js" action="https://blog.sme.sk/search" method="get">
+    <input type="text" placeholder="Vyhľadávanie" name="q" value=""><input type="hidden" name="period" value="90"><input type="submit" class="btn btn-inverse btn-search" value="Hľadaj">
+</form>
+        </header><div class="js-deep-container-main-nav nav-outer-wrapper">
+            <nav class="main-nav main-js cf">
+    <ul>
+        <li>
+            <a href="http://www.sme.sk/?ref=blog">Sme.sk</a>
+        </li>
+        <li>
+            <a href="http://www.sme.sk/r/online_zdom/z_domova.html?ref=blog">Domov</a>
+        </li>
+        <li>
+            <a href="http://regiony.sme.sk/?ref=blog">Regióny</a>
+        </li>
+        <li>
+            <a href="http://ekonomika.sme.sk/?ref=blog">Ekonomika</a>
+        </li>
+        <li>
+            <a href="http://www.sme.sk/r/online_zahr/zo_zahranicia.html?ref=blog">Svet</a>
+        </li>
+        <li>
+            <a href="http://komentare.sme.sk/?ref=blog">Komentáre</a>
+        </li>
+        <li>
+            <a href="http://kultura.sme.sk/?ref=blog">Kultúra</a>
+        </li>
+        <li>
+            <a href="http://sport.sme.sk/?ref=blog">Šport</a>
+        </li>
+        <li>
+            <a href="http://tv.sme.sk/?ref=blog">TV</a>
+        </li>
+        <li>
+            <a href="http://auto.sme.sk/?ref=blog">Auto</a>
+        </li>
+        <li>
+            <a href="http://tech.sme.sk/?ref=blog">Tech</a>
+        </li>
+        <li>
+            <a href="http://poradna.sme.sk/?ref=blog">Poradňa</a>
+        </li>
+        <li>
+            <a href="http://zena.sme.sk/?ref=blog">Žena</a>
+        </li>
+        <li>
+            <a href="http://byvanie.sme.sk/?ref=blog">Bývanie</a>
+        </li>
+        <li>
+            <a href="http://primar.sme.sk/?ref=blog">Zdravie</a>
+        </li>
+        <li>
+            <a href="http://blog.sme.sk/" class="selected">Blog</a>
+        </li>
+    </ul>
+</nav>
+
+        </div>
+
+        <div class="js-deep-container-sub-nav">
+            <nav class="sub-nav sub-js cf">
+                                    
+    <ul class="left">
+                                                        <li><a  href="//blog.sme.sk/t/1/politika">Politika</a></li>
+                                                                                                    <li><a  href="//blog.sme.sk/t/2/spolocnost">Spoločnosť</a></li>
+                                                                                                    <li><a  href="//blog.sme.sk/t/3/cestovanie">Cestovanie</a></li>
+                                                                                                    <li><a  href="//blog.sme.sk/t/5/fotografie">Fotografie</a></li>
+                                                                                                    <li><a  href="//blog.sme.sk/t/6/jedlo">Jedlo</a></li>
+                                                                                                    <li><a  href="//blog.sme.sk/t/7/kultura">Kultúra</a></li>
+                                                                                                    <li><a  href="//blog.sme.sk/t/250907/auto-moto">Auto-moto</a></li>
+                                                                                                            <li class="dropdown-menu-toggle-js"><a class="active" href="#">Ďalšie<i data-icon="f"></i></a>
+                            <ul class="sub-nav-dropdown-menu">
+                                                                                <li><a  href="//blog.sme.sk/t/4/ekonomika">Ekonomika</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/8/lifestyle">Lifestyle</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/9/media">Médiá</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/10/nezaradene">Nezaradené</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/11/sukromne">Súkromné</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/12/sport">Šport</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/13/veda-a-technika">Veda a technika</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/14/zabava">Zábava</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/15/poezia">Poézia</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/16/proza">Próza</a></li>
+                                                                                                                                                                <li><a  href="http://info.blog.sme.sk/c/11694/Kodex-blogera-na-blogsmesk-aktualizovany-10-7-2012.html">Kódex blogera</a></li>
+                                                                                                                                                                <li><a  href="//blog.sme.sk/t/89892/video-blog">Video blog</a></li>
+                                                                            </ul>
+                        </li>
+                                                <li>
+            <a href="" class="blog-list-toggle-js">Blogeri<i data-icon="f"></i></a>
+        </li>
+    </ul>
+
+                                <span class="js-deep-container-user-account">
+                
+<a class="icon-link" id="no-auth-login" href="//blog.sme.sk/admin/login">
+    <i data-icon="m"></i>
+    <span class="text">Prihlásiť sa</span>
+</a>
+<a class="icon-link" id="no-auth-create" href="//blog.sme.sk/admin/registration">
+    <i data-icon="n"></i>
+    <span class="text">Založte si blog</span>
+</a>
+
+<a class="icon-link right is-hidden" id="auth-logout" href="//blog.sme.sk/admin/logout">
+    <i data-icon="k"></i>
+    <span class="text">Odhlásiť sa</span>
+</a>
+<a class="icon-link right is-hidden" id="auth-admin" href="//blog.sme.sk/admin/dashboard" data-href-normal-user="//blog.sme.sk/oblubeni-blogeri/zoznam">
+    <i data-icon="y"></i>
+    <span class="text" id="auth-name"></span>
+</a>
+
+
+
+                </span>
+            </nav>
+        </div><script>
+            var globalAjaxUrl = 'https://frnco.blog.sme.sk/ajax/sme/web/blogers_block';
+            var globalAjaxLoader = '<div class="bloggers-list"><img src="https://a.smedata.sk/blog/bundles/smeblogweb/images/ajax-loader.gif?r=27ca"></div>';
+        </script>
+        <div class="bloggers-wrapper bloggers-wrapper-js"></div><div class="content grid-container js-content ">
+                <!-- LEFT SIDE -->
+    <div class="blogpost-heading">
+                    <div class="breadcrumb small">
+                <span class="js-deep-bread-crumb" data-deep-event-tags="cesta">
+                <a href="http://www.sme.sk"  data-deep-tags="sme-home">SME.sk</a> >
+                <a href="https://blog.sme.sk/" data-deep-tags="blog-home">Blog.SME.sk</a> >
+                </span>
+                                                        <span class="js-deep-bloger-hp-link-wrapper" data-deep-event-tags="cesta">
+                        <a href="https://frnco.blog.sme.sk/" data-deep-tags="bloger-home" data-deep-bloger-name="Roman Frnčo">Roman Frnčo</a>
+                    </span>
+                                                    >
+                    <span class="js-deep-bread-crumb" data-deep-event-tags="cesta">
+                    <a href="https://frnco.blog.sme.sk/t/9126/pravo-a-politika" data-deep-tags="pravo-a-politika" data-deep-bloger-name="Roman Frnčo">Právo a politika</a>
+                    </span>
+                            </div>
+                <h1 class="alpha">Pravda o Š. Harabinovi</h1>
+
+        <span class="easyAdmin fancyArticleBtn" data-ea="article" data-label="UPRAVIŤ ČLÁNOK" data-id="503858"></span>
+                    <small class="light">
+                <span class="print-inline">Autor: Roman Frnčo |</span>
+                <span>                                    </span>
+                <span class="inline-block">
+                    6.3.2019
+                    o
+                    17:17
+                |
+                </span>
+                <span class="inline-block">
+                                        (upravené
+                        7.3.2019
+                        o
+                        14:57)
+                                    Karma článku:
+                    10,01
+                    |
+                </span>
+                <span class="inline-block">
+                    Prečítané:&nbsp;
+                    <span class="easyAdmin" data-ea="statistics" data-label="ZOBRAZIŤ ŠTATISTIKY" data-id="12269">117977x</span>
+                </span>
+                            </small>
+            </div>
+    <div class="left-box">
+        <div class="left-box-fluid">
+            <article data-owner="12269">
+
+                <p class="perex">
+                    Kamoš sa ma minule spýtal, prečo nevoliť Štefana Harabina. Keďže som mu nechcel dať ako odpoveď len zopár fráz, vyprovokoval ma k tomu, aby som si o Harabinovi ešte viac naštudoval. Na konci článku si urobte o ňom vlastný názor.  
+                </p>
+
+                <p><strong ><em >KRÁTKE INFO</em></strong></p><p style=" text-align:justify;">Faktom je, že Harabin je celé roky súčasťou právno-politického systému Slovenska a zásadným spôsobom ho formoval. Už za socializmu bol sudcom a zároveň členom KSČ, v rokoch 1998 – 2003 a 2009 – 2014 bol predsedom Najvyššieho súdu SR. 2006 – 2009 bol ministrom spravodlivosti ako nominant Vladimíra Mečiara vo vláde Róberta Fica.  </p><div class="gallery-single" ><img alt="article_photo" src="https://u.smedata.sk/blog/article/8/50/503858/503858_article_photo_k5kfizv_600x.png?r=27ca" width="400" height="367" /></div><p> </p><p><strong ><em >OPAKOVANE PRISTIHNUTÝ PRI KLAMSTVÁCH A ZAVÁDZANIACH</em></strong></p><p style=" text-align:justify;">Stránka Demagog.sk hodnotila jeho ostatné vystúpenia v televíznych debatách. V nich povedal 8 pravdivých výrokov a až <strong >20 nepravdivých, 5 zavádzajúcich</strong>. 1 bol neoveriteľný. Teda, ak niečo hovorí Harabin, je malá šanca, že neklame. Všetci si pamätáme, ako v  parlamente povedal Lipšicovi „Pôjdeš do basy, ty hajzel!“ - najprv tvrdil, že išlo o výmysel a marketingový ťah Lipšica. Priznal sa až po tom, keď bolo zrejmé, že je to zaznamenané kamerou. </p><div class="videobox youtube"><iframe src="//www.youtube.com/embed/BC-OiWcmY4I" border="0" frameborder="0" scrolling="no" >video //www.youtube.com/embed/BC-OiWcmY4I</iframe></div><p style=" text-align:justify;">Vzhľadom na viaceré škandály sa ho snažili ako predsedu Najvyššieho súdu SR odvolať už v roku 2000. Voči tomu sa bránil na ústavnom súde, no nepochodil. Zaujímavosťou je, že od súdu žiadal vydanie predbežného opatrenia, ktorým by sa poslancom dokonca zakázalo hlasovať o jeho odvolaní. Keďže išlo o zjavnú hlúposť a ústava negarantuje právo zotrvať vo verejnej funkcii, nepochodil. Obrátil sa tak na Európsky súd pre ľudské práva, kde žiadal odškodnenie vo výške <strong >22 miliónov korún</strong>! Sumu odôvodnil tým, že poslancovi Gauliederovi bolo za nezákonné odobratie mandátu priznaných 2 mil. korún a to bol „len radovým poslancom“ (1 zo 150). On je však na čele 1270-členného sudcovského zboru, a preto má nárok na <strong >22 miliónov</strong>. Následne poslancom tvrdil, že Európsky súd pre ľudské práva jeho podnet prijal. To malo byť akože dôkazom oprávnenosti jeho podania, no zistilo sa, že šlo len o potvrdenie  toho, že jeho podanie bolo doručené. Bolo to teda zjavné zavádzanie, ktoré si Harabin musel uvedomovať. </p><p style=" text-align:justify;">Taktiež šíril hoax o tom, že nám malo byť podľa neoverených informácií dovezených 11.000 migrantov, ktorí mali dostať podporu 800,- Eur mesačne či ubytovanie. Samozrejme ukázala sa to ako absolútna hlúposť. </p><p> </p><p><strong ><em >“TRANSPARENTNOSŤ“</em></strong></p><p style=" text-align:justify;">Harabin bol známy bojovník proti zavedeniu elektronickému náhodnému prideľovaniu spisov sudcom. Jedným z podnetov k jeho zavedeniu bol prieskum uskutočnený na Okresom súde Banská Bystrica. Jeho predsedníčka Jana Dubovcová urobila anketu, na základe ktorej sa zistilo, že 30 % ľudí má skúsenosť s korupciou na súde a že v prípade, ak boli požiadaní o úplatok, tak až v 67 % prípadov to bolo zo strany sudcu. Reakcia Harabina? Rada sudcov, ktorej predsedal Harabin, chcela Dubovcovú odvolať. </p><p style=" text-align:justify;">Harabin sa v tom čase všemožne bránil zavedeniu elektronickej podateľne, čiže náhodnému prideľovaniu spisov. Tvrdil, že otázka zákonného sudcu je upravená v príslušných predpisoch a teda podľa neho takáto podateľna nie je potrebná. Taktiež tvrdil, že nedostal projekt na jej zavedenie alebo nedostal na ňu peniaze. O pár rokov neskôr už aj keď bola zavedená, časť spisov bola sudcom odoberaná ako tzv. opatrenie na vyrovnanie nerovnomerného zaťaženia sudcov a následné prideľovanie novým sudcom bolo vykonané <strong >bez toho, aby bolo využité elektronické náhodné prideľovanie spisov</strong>, teda prípady boli rozdeľované tak, aby sa obišlo náhodné prideľovanie spisov.  </p><p style=" text-align:justify;">Za vrchol netransparentnosti považujem prípad prepustenia Ivana Lexu (HZDS) na slobodu. O tomto prípade rozhodoval senát Najvyššieho súdu SR, ktorý ešte nebol pridelený náhodným prideľovaným spisov, keďže bolo známe, že na Najvyššom súde SR náhodné prideľovanie spisov nie je zavedené. Bolo preto podozrivé, prečo o prepustení rozhodol senát Minárika. Minárik mohol byť totiž zaujatý, keďže  len 3 mesiace pred rozhodnutím, ho za člena súdnej rady navrhol poslanec za HZDS Ivan Cuper. Zároveň len pár dní pred týmto kontroverzným rozhodnutím sa Harabin stretol s Brheľom, vtedajším poslancom za HZDS. Teda o členovi HZDS rozhodovali ľudia, ktorí mali blízko k HZDS. Odôvodnenie prepustenia z väzby vyvolávalo pochybnosti – hovorca súdu, ktorý vzal Lexu do väzby, totižto deň pred rozhodnutím do médií vyhlásil, že so sudkyňou rozhodujúcou o väzbe rozprával a podľa neho existujú dôvody na uvalenie väzby. Z toho si sudcovia (2 z 3) vyvodili, že ide o zaujatosť. Zaujímavým bolo, že generálny prokurátor Hanzel v tom čase vyhlásil, že všetci vedia, že na najvyššom súde <strong >nie je senát ako senát</strong>. Posledným klincom do rakvy bolo, že dvaja sudcovia, ktorí hlasovali za prepustenie Lexu dostali od Harabina odmeny a ten, ktorý nehlasoval, žiadnu odmenu nedostal. </p><p style=" text-align:justify;">Netreba zabúdať ani na to, že Harabin bol známym bojovníkom proti Špeciálnemu súdu, ktorý bol zriadený práve na účinnejší boj s korupciou. Taktiež podporoval sudcov v tzv. antidiskriminačných žalobách, keďže sa cítili ukrátení kvôli tomu, že sudcovia Špeciálneho súdu dostávajú vyššie platy. </p><p> </p><p><strong ><em >PAPALÁŠIZMUS</em></strong></p><p style=" text-align:justify;">V rokoch 2009 a 2010 si ako predseda Najvyššieho súdu prilepšil plat o odmeny vo výške 113-tisíc eur. </p><p style=" text-align:justify;">Harabinov syn sa aj s kamarátom vyvážal na ministerskom aute. Využívanie ministerského auta zo strany Harabinovej rodiny dokonca pokračovalo aj po tom, čo sa táto informácia objavila v novinách. </p><div class="gallery-single" ><img alt="article_photo" src="https://u.smedata.sk/blog/article/8/50/503858/503858_article_photo_amuqcvd_600x.jpeg?r=27ca" width="400" height="300" /><span><small style="max-width: 400px; display: block; margin-left:auto; margin-right:auto;"></small></span></div><p><strong ><em >AROGANTNÝ A POMSTYCHTIVÝ</em></strong></p><p style=" text-align:justify;">Lipšica posiela do basy, predsedníčku Najvyššieho súdu SR nazýva juristútkou či chuderou. So sudcami, čo dokázali byť k nemu kritickí, sa chcel vysporiadať cez disciplinárne konania, kde často žiadal najvyššie tresty, hoci na to nebol adekvátny dôvod. Známe sú i prípady, kedy Harabin trestného sudcu zrazu preložil do správneho kolégia. Stalo sa tak napr. pri podpredsedovi Najvyššieho súdu SR Majchrákovi v máji 2001, ktorý vzhľadom na polarizáciu situácie v súdnictve navrhol Harabinovi, aby sa spoločne vzdali funkcií. Harabin preložil Majchráka do správneho kolégia, teda Majchrák, ktorý bol v tom čase 19 rokov trestným sudcom, sa zrazu mal zo na deň stať odborníkom na správne právo. Je to podobné, akoby ste doktora – kardiológa preradili zo dna na deň na gynekológiu. Reagovalo už aj združenie sudcov, čo však nepomohlo. Išlo o zlomyselné rozhodnutie, keďže  aj trestných sudcov bolo v tom čase málo a už v júni 2001 sa tak či tak robili výberové konania na desiatich nových sudcov.  Majchrák neskôr trpel depresiami, dokonca spáchal samovraždu.</p><p style=" text-align:justify;">Legendárnymi sú žaloby na média, od ktorých žiadal horibilné sumy, pričom často mu súdy aj vyhoveli, hoci keby obdobnú vec žaloval bežný občan, nemal by šancu získať takéto sumy. Od denníka Pravda v roku 2006 získal 100.000,- Eur, od Spoločnosti 7 Plus 16.000,- Eur v decembri 2008, v roku 2009 ďalších vyše 31.000,- Eur či 33.000,- Eur od vydavateľa Denníka SME, v prípade Baki Sadiki mu bolo priznaných 150.00 Eur. Je nutné poznamenať, že pozostalí po obetiach trestných činov môžu o takýchto sumách iba snívať. </p><p> </p><p><strong ><em >V SÚLADE SO ZÁ-KO-NOM?</em></strong></p><p style=" text-align:justify;">Harabin ako minister zo dňa na deň odvolal predsedov niektorých súdov a to hlavne tých, ktorí boli proreformne naladení. Róbert Urban kvôli svojmu odvolaniu viedol súdny spor, v ktorom Najvyšší súd rozhodol, že jeho odvolanie bez udania dôvodu bolo v súlade so zákonom, no Ústavný súd SR rozhodol, že v tejto veci Najvyšší súd rozhodol svojvoľne. </p><p style=" text-align:justify;">Najvyšší kontrolný úrad skonštatoval, že v rokoch 2009 a 2010 sa hospodárilo na Najvyššom súde SR nehospodárne, pričom rozdeľovanie odmien malo byť diskriminačné. Kto, akú dostal odmenu, bolo čisto na subjektívnom rozhodnutí predsedu súdu. Rozpätie odmien bolo od 50,- Eur po 30.000,- Eur. Dlhoroční sudcovia súdu, ktorí boli Harabinovými kritikmi, nedostali žiadnu odmenu alebo len 50,- Eur, ktorú nakoniec vrátili do pokladnice súdu na znak nesúhlasu s týmito praktikami. Odmenami sa napokon mal zaoberať aj Európsky súd pre ľudské práva v Štrasburgu, ktorý podľa NKÚ konštatoval porušenie práv jedného zo sudcov.</p><p style=" text-align:justify;">Harabin sa na svojej stránke snaží vyvrátiť viaceré „mediálne lži o Harabinovi“, avšak robí to sebe svojským spôsobom - viac menej lži nevyvracia, ale vysvetľuje si viaceré veci po svojom.</p><p style=" text-align:justify;">Takto si predstavujeme ochrancu národa, kresťanstva či tradičnej rodiny? </p><div class="gallery-single" ><img alt="article_photo" src="https://u.smedata.sk/blog/article/8/50/503858/503858_article_photo_rljnijm_600x.jpeg?r=27ca" width="400" height="446" /></div><p style=" text-align:justify;"><strong >V tomto článku som vychádzal z viacerých zverejnených informácií a najmä z knihy Veroniky Prušovej a kol., ktorú vrelo odporúčam. Na jej čítanie však treba silný žalúdok. Ak si ju čítate, nedokážete pochopiť, ako sa takýto človek mohol dostať tak vysoko, ako mohol tak dlho vydržať vo svojich funkciách a ako je možné, že ešte dnes má tú drzosť kandidovať na prezidenta.</strong></p><p><strong >Zdroje:</strong></p><p>Veronika Prušová a kol.: Harabin</p><p><a  href="https://sk.wikipedia.org/wiki/%C5%A0tefan_Harabin" rel="nofollow">https://sk.wikipedia.org/wiki/Štefan_Harabin</a></p><p><a  href="https://domov.sme.sk/c/54108/podla-prezidia-zss-je-prelozenie-j-majchraka-do-spravneho-kolegia-ns-neeticke.html">https://domov.sme.sk/c/54108/podla-prezidia-zss-je-prelozenie-j-majchraka-do-spravneho-kolegia-ns-neeticke.html</a></p><p><a  href="https://dennikn.sk/861690/harabin-hospodaril-rozsafne-a-diskriminoval-niektorych-sudcov-tvrdi-nku/" rel="nofollow">https://dennikn.sk/861690/harabin-hospodaril-rozsafne-a-diskriminoval-niektorych-sudcov-tvrdi-nku/</a></p><p><a  href="https://www.aktuality.sk/clanok/547661/sudca-harabin-rozdeloval-a-panoval-dobu-temna-vystriedala-apatia/" rel="nofollow">https://www.aktuality.sk/clanok/547661/sudca-harabin-rozdeloval-a-panoval-dobu-temna-vystriedala-apatia/</a></p><p>https://domov.sme.sk/c/20219421/harabin-si-vyplatil-odmeny-113-tisic-eur.html</p>
+
+                
+                <div class="favorite-blogger-wrapper">
+                    <div class="add-bloger-disclaimer">Páčil sa Vám tento článok? Pridajte si blogera medzi obľúbených a my Vám pošleme email keď napíše ďalší článok</div>
+                    <span class="favorite-blogger-error error hidden" id="error-co-fba-12269">
+                       <p id="errormsg-fba-12269"></p>
+                    </span>
+                    <span class="favorite-blogger-status hidden"  id="status-co-fba-12269">
+                       <p id="statusmsg-fba-12269">Bloger pridaný. <a href="https://blog.sme.sk/oblubeni-blogeri/zoznam">Zoznam obľúbených blogerov</a></p>
+                    </span>
+
+                    <span class="js-deep-add-favorite-blogger js-add-favorite-blogger-widget add-favorite-blogger" data-deep-tags="article" data-fav-place="article" data-id="12269"
+                        data-ajax-url="https://blog.sme.sk/ajax/favorite-blogger/ins?articleId=503858"><i data-icon="M"></i>Pridaj k obľúbeným</span>
+                </div>
+
+                                <div class="js-deep-container-social-share-bottom share-box share-box-bottom cf">
+                <div class="margin-m cf">
+                    <a
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html"
+                        class="social-btn-large fb js-fb-share"
+                        data-art-title="Pravda o Š. Harabinovi(blog.sme.sk)"
+                        data-ga-event-id="gaev-art-sociallinks"
+                        data-ga-event-key="article_sociallinks_bottom"
+                        data-ga-event-value="FB"
+                        title="Zdieľaj na facebooku"><i data-icon="d"
+                        class="size-s"></i> <span class="text">Zdieľať na facebooku (14097)</span></a>
+                                                                                                                    <a
+                        href="https://blog.sme.sk/diskusie/3516284/1/pravda-o-s-harabinovi.html"
+                        class="social-btn-large discussion"
+                        data-ga-event-id="gaev-article-disc"
+                        data-ga-event-key="article_discussion"
+                        data-ga-event-value="bottom"
+                        title="Prejdi na diskusiu k článku"><i
+                        data-icon="a" class="size-s"></i> <span
+                        class="text">Diskusia (206)</span></a>
+                                    </div>
+                <div class="cf">
+                    <span class="share-buttons es-right-desktop"> <a
+                        href="https://twitter.com/intent/tweet?original_referer=https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html&amp;text=Pravda o Š. Harabinovi&amp;tw_p=tweetbutton&amp;url=https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html&amp;via="
+                        class="social-btn twitter"
+                        data-ga-event-id="gaev-art-sociallinks"
+                        data-ga-event-key="article_sociallinks_bottom"
+                        data-ga-event-value="TW"
+                        title="Zdieľaj na twitteri"><i data-icon="G"></i></a>
+                        <a
+                        href="http://plus.google.com/share?url=https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html"
+                        class="social-btn google is-hidden-mobile js-gplus-share"
+                        data-ga-event-id="gaev-art-sociallinks"
+                        data-ga-event-key="article_sociallinks_bottom"
+                        data-ga-event-value="G+"
+                        title="Zdieľaj na google+"><i data-icon="C"></i></a>
+                        <a
+                        href="whatsapp://send?text=https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html"
+                        class="social-btn whatsup is-hidden-desktop"
+                        data-action="share/whatsapp/share"
+                        data-ga-event-id="gaev-art-sociallinks"
+                        data-ga-event-key="article_sociallinks_bottom"
+                        data-ga-event-value="WH"><i data-icon="O"></i> </a>
+                        <a  id="vote_button_503858" href="javascript: writeArticleVote(
+                        'https://frnco.blog.sme.sk/ajax/sme/web/article_vote/503858',
+                        '503858',
+                        'Ďakujeme za hlas',
+                        'vote_button_503858');" class="social-btn karma">
+                            <i data-icon="e"></i><span class="text" id="increase_karma_text">Zvýšte karmu</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+
+        </article>
+
+                        
+
+
+
+                            <div class="section next-articles cf no-print">
+                    <!-- next blogger articles -->
+                    <div class="js-deep-detail-next-blogers-articles col" data-deep-event-tags="politika">
+                        <h5>Ďalšie články blogera</h5>
+                                                <ul class="js-deep-next-blogers-articles-list">
+                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                            <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/article//3/48/489733/489733_article_photo_kxlieni_s.jpeg?r=27ca"
+                                                alt="Roman Frnčo"
+                    
+            />
+
+                                                                        </span>
+                                    <span class="text">
+                                        <small>Roman Frnčo</small><br>
+                                        <a class="cf" href="https://frnco.blog.sme.sk/c/489733/alkohol-za-volantom.html?ref=viacbloger" data-deep-bloger-name="Roman Frnčo" data-deep-tags="position-1">
+                                            Alkohol za volantom
+                                        </a>
+                                    </span>
+                                </li>
+                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                            <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/photo//9/12/12269/roman-frnco3736956_0_s.jpeg?r=27ca"
+                                                alt="Roman Frnčo"
+                    
+            />
+
+                                                                        </span>
+                                    <span class="text">
+                                        <small>Roman Frnčo</small><br>
+                                        <a class="cf" href="https://frnco.blog.sme.sk/c/454509/5-free-pocitacovych-vychytavok-uzitocnych-nielen-pre-pravnikov.html?ref=viacbloger" data-deep-bloger-name="Roman Frnčo" data-deep-tags="position-2">
+                                            5 free počítačových vychytávok užitočných (nielen) pre právnikov
+                                        </a>
+                                    </span>
+                                </li>
+                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                            <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/photo//9/12/12269/roman-frnco3736956_0_s.jpeg?r=27ca"
+                                                alt="Roman Frnčo"
+                    
+            />
+
+                                                                        </span>
+                                    <span class="text">
+                                        <small>Roman Frnčo</small><br>
+                                        <a class="cf" href="https://frnco.blog.sme.sk/c/447207/osobny-bankrot-po-novom-pokracovanie-informacie-uzitocne-pre-advokatov.html?ref=viacbloger" data-deep-bloger-name="Roman Frnčo" data-deep-tags="position-3">
+                                            Osobný bankrot po novom – pokračovanie + informácie užitočné pre advokátov
+                                        </a>
+                                    </span>
+                                </li>
+                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                            <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/photo//9/12/12269/roman-frnco3736956_0_s.jpeg?r=27ca"
+                                                alt="Roman Frnčo"
+                    
+            />
+
+                                                                        </span>
+                                    <span class="text">
+                                        <small>Roman Frnčo</small><br>
+                                        <a class="cf" href="https://frnco.blog.sme.sk/c/445098/strelne-zbrane-akriminalita-na-slovensku-alebo-preco-si-dat-pozor-na-byvale-priatelky.html?ref=viacbloger" data-deep-bloger-name="Roman Frnčo" data-deep-tags="position-4">
+                                            Strelné zbrane a kriminalita na Slovensku alebo prečo si dať pozor na bývalé priateľky
+                                        </a>
+                                    </span>
+                                </li>
+                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                            <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/photo//9/12/12269/roman-frnco3736956_0_s.jpeg?r=27ca"
+                                                alt="Roman Frnčo"
+                    
+            />
+
+                                                                        </span>
+                                    <span class="text">
+                                        <small>Roman Frnčo</small><br>
+                                        <a class="cf" href="https://frnco.blog.sme.sk/c/443765/ako-narocne-je-vybavit-si-zbrojny-preukaz-postup-od-apo-z.html?ref=viacbloger" data-deep-bloger-name="Roman Frnčo" data-deep-tags="position-5">
+                                            Ako náročné je vybaviť si zbrojný preukaz? Postup od A po Z
+                                        </a>
+                                    </span>
+                                </li>
+                                                    </ul>
+                        <span class="js-deep-bloger-hp-link-wrapper">
+                            <a href="https://frnco.blog.sme.sk/" data-deep-tags="next-auth-blogs" data-deep-bloger-name="Roman Frnčo">
+                            <b>Ďalšie články blogera: Roman Frnčo</b>
+                        </a></span>
+                    </div>
+                    <!-- next tag articles -->
+                    <div class="js-deep-detail-articles-in-section col">
+                        <h5>Ďalšie články z rubriky politika</h5>
+                        <ul class="js-deep-articles-in-section-list">
+                                                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                                <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/article//5/50/504055/504055_article_photo_sxlfxer_s.jpeg?r=27ca"
+                                                alt="Juraj Foltín"
+                    
+            />
+
+                                                                                                                </span>
+                                    <span class="text">
+                                        <small>Juraj Foltín</small><br>
+                                        <a class="cf" href="https://jurajfoltin.blog.sme.sk/c/504055/prezidentske-volby-k-volebnym-urnam-pojdem-rad.html?ref=viacrubrika" data-deep-bloger-name="Juraj Foltín">
+                                            Prezidentské voľby- k volebným urnám pôjdem rád
+                                        </a>
+                                    </span>
+                                </li>
+                                                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                                <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/article//3/50/504063/504063_article_photo_iyjlrwd_s.jpeg?r=27ca"
+                                                alt="Igor Hraško"
+                    
+            />
+
+                                                                                                                </span>
+                                    <span class="text">
+                                        <small>Igor Hraško</small><br>
+                                        <a class="cf" href="https://igorhrasko.blog.sme.sk/c/504063/je-slovensko-skutocne-plnohodnotnou-sucastou-eu.html?ref=viacrubrika" data-deep-bloger-name="Igor Hraško">
+                                            Je Slovensko skutočne plnohodnotnou súčasťou EÚ?
+                                        </a>
+                                    </span>
+                                </li>
+                                                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                                <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/photo//2/12/12172/marek-strapko76875976_0_s.jpeg?r=27ca"
+                                                alt="Marek Strapko"
+                    
+            />
+
+                                                                                                                </span>
+                                    <span class="text">
+                                        <small>Marek Strapko</small><br>
+                                        <a class="cf" href="https://strapko.blog.sme.sk/c/504024/krestania-nenechajme-so-sebou-zametat.html?ref=viacrubrika" data-deep-bloger-name="Marek Strapko">
+                                            Kresťania, nenechajme so sebou zametať!
+                                        </a>
+                                    </span>
+                                </li>
+                                                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                                <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/photo//2/87/87412/peter-bisco2737620_0_s.jpeg?r=27ca"
+                                                alt="Peter Biščo"
+                    
+            />
+
+                                                                                                                </span>
+                                    <span class="text">
+                                        <small>Peter Biščo</small><br>
+                                        <a class="cf" href="https://bisco.blog.sme.sk/c/504014/o-traktorochktore-sa-objavuju-v-nasom-zivote.html?ref=viacrubrika" data-deep-bloger-name="Peter Biščo">
+                                            O traktoroch,ktoré sa objavujú  v našom živote.
+                                        </a>
+                                    </span>
+                                </li>
+                                                                                            <li>
+                                    <span class="photo-wrap-small left">
+                                                                                                                                <img
+                                    width="50"
+                                                                class="left"
+                                                src="https://u.smedata.sk/blog/photo//5/34/34455/miroslav-lukac47413720_0_s.jpeg?r=27ca"
+                                                alt="Miroslav Lukáč"
+                    
+            />
+
+                                                                                                                </span>
+                                    <span class="text">
+                                        <small>Miroslav Lukáč</small><br>
+                                        <a class="cf" href="https://miroslavlukac1.blog.sme.sk/c/504012/mojo-imja-familija-i-otcestvo-robert-pelegrinovic-sevcovicov-kandidat.html?ref=viacrubrika" data-deep-bloger-name="Miroslav Lukáč">
+                                            Mojo imja, famiľija i otčestvo - Robert Pelegrinovič Ševčovičov.  Kanďidat.
+                                        </a>
+                                    </span>
+                                </li>
+                                                    </ul>
+                        <span class="js-deep-articles-in-section-next">
+                            <a href="https://blog.sme.sk/t/1/politika">
+                            <b>Ďalšie články z rubriky politika</b>
+                            </a></span>
+                    </div>
+
+                                    </div>
+            
+                            <div class="blog-ad-position ad-position-article-after">
+
+<!-- BEGIN SmeAdvertManager-Position: article_after -->
+<div id="div-gpt-ad--43112356-blog-squarec-0-5296" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-squarec-0-5296');
+    });
+</script>
+<div id="div-gpt-ad--43112356-blog-msquarec-0-5299" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-msquarec-0-5299');
+    });
+</script>
+<!-- END SmeAdvertManager-Position: article_after -->
+
+</div>
+
+                <div class="js-deep-container-neprehliadnite-a-hlavne-spravy-article no-print">
+                    
+<div class="list news section">
+    <h2>Hlavné správy</h2>
+        <div class="item cf">
+        <a href="http://domov.sme.sk/c/22061876/prezidentske-volby-2019-mistrik-caputova.html?ref=blog" class="photo">
+                                <img
+                                    src="https://m.smedata.sk/api-media/media/image/sme/0/40/4036740/4036740_300x200.jpeg?rev=4"
+                    
+            />
+
+        </a>
+        <div class="text">
+            <small class="light">DOMOV</small>
+            <h3><a href="http://domov.sme.sk/c/22061876/prezidentske-volby-2019-mistrik-caputova.html?ref=blog">Mistrík odstúpil z prezidentského súboja, podporil Čaputovú</a></h3>
+            <p>Mistríkovo rozhodnutie ocenil aj prezident Kiska a tiež podporil Čaputovú.</p>
+        </div>
+    </div>
+        <div class="item cf">
+        <a href="http://komentare.sme.sk/c/22062014/toto-by-caputova-nemala-zahodit.html?ref=blog" class="photo">
+                                <img
+                                    src="https://m.smedata.sk/api-media/media/image/sme/8/28/2814928/2814928_300x200.jpeg?rev=2"
+                    
+            />
+
+        </a>
+        <div class="text">
+            <small class="light">KOMENTÁR PETRA TKAČENKA</small>
+            <h3><a href="http://komentare.sme.sk/c/22062014/toto-by-caputova-nemala-zahodit.html?ref=blog">Toto by Čaputová nemala zahodiť</a></h3>
+            <p>Po dvadsiatich rokoch môže prvé kolo vyhrať blok mimo Smeru a HZDS.</p>
+        </div>
+    </div>
+        <div class="item cf">
+        <a href="http://auto.sme.sk/c/22061438/skoda-kamiq-male-suv-s-velkymi-ambiciami-prichadza.html?ref=blog" class="photo">
+                                <img
+                                    src="https://m.smedata.sk/api-media/media/image/sme/0/40/4036290/4036290_300x200.jpeg?rev=3"
+                    
+            />
+
+        </a>
+        <div class="text">
+            <small class="light">AUTO</small>
+            <h3><a href="http://auto.sme.sk/c/22061438/skoda-kamiq-male-suv-s-velkymi-ambiciami-prichadza.html?ref=blog">Prichádza malé SUV Škoda Kamiq. Aké sú naše prvé dojmy?</a></h3>
+            <p>Zaboduje priestorom aj bohatou výbavou.</p>
+        </div>
+    </div>
+    </div>
+
+                </div>
+            
+        </div>
+    </div><div class="js-deep-container-bloger-card right-box no-print" data-deep-event-tags="article">
+<aside>
+
+    <section class="blogger-card text-center">
+                                        <span class="js-deep-bloger-hp-link-wrapper"><a class="photo-wrap" href="https://frnco.blog.sme.sk/" data-deep-tags="right-box bloger-photo" data-deep-bloger-name="Roman Frnčo">
+                            <img width="200" src="https://u.smedata.sk/blog/photo//9/12/12269/roman-frnco3736956_0.jpeg?r=27ca" alt="Roman Frnčo"/>
+            </a>
+        </span>
+
+
+
+        <h2 class="beta">
+            <span class="js-deep-bloger-hp-link-wrapper"><a href="https://frnco.blog.sme.sk/" data-deep-tags="right-box bloger-name" data-deep-bloger-name="Roman Frnčo">Roman Frnčo</a></span>
+        </h2>
+            <span class="js-deep-bloger-hp-link-wrapper"><a href="https://frnco.blog.sme.sk/" data-deep-tags="right-box bloger-canonical" data-deep-bloger-name="Roman Frnčo">frnco.blog.sme.sk</a>&nbsp;
+            <a data-deep-tags="right-box rss" data-deep-bloger-name="Roman Frnčo" href="https://frnco.blog.sme.sk/rss">(rss)</a></span>
+        <br />
+                                            <span class="tag">Obľúbený bloger</span>
+                    </section>
+
+
+    <section>
+        <p>Advokát pôsobiaci v Košiciach. Poslanec&nbsp;mestskej časti Košice - Nad jazerom.</p>
+
+<p>Ak ma chcete skontaktovať, využite prosím správu nižšie&nbsp;alebo zavolajte mi na 0905 650 150.</p>
+        <span class="easyAdmin fancySettingsBtn profile" data-ea="userProfile" data-label="UPRAVIŤ" data-id="12269"></span>
+    </section>
+
+    <section class="favorite-blogger-wrapper">
+        <span class="favorite-blogger-error error hidden" id="error-co-fb-12269">
+           <p id="errormsg-fb-12269"></p>
+        </span>
+        <span class="favorite-blogger-status hidden" id="status-co-fb-12269">
+           <p id="statusmsg-fb-12269">Bloger pridaný. <a href="https://blog.sme.sk/oblubeni-blogeri/zoznam">Zoznam obľúbených blogerov</a></p>
+        </span>
+        <div class="text-center">
+        <span class="js-deep-add-favorite-blogger js-add-favorite-blogger-widget add-favorite-blogger" data-deep-tags="right-box" data-fav-place="card" data-id="12269"
+            data-ajax-url="//blog.sme.sk/ajax/favorite-blogger/ins"><i data-icon="M"></i>Pridaj k obľúbeným</span>
+        </div>
+    </section>
+
+    <section class="social">
+                    <p class="text-center">
+                            </p>
+            </section>
+
+    <section class="blogger-stats">
+        <table class="text-center">
+            <tr>
+                <td>
+                    Počet článkov
+                    <b>96</b>
+                </td>
+                <td>
+                    Celková karma
+                    <b>
+                                                0.00
+                    </b>
+                </td>
+                <td>
+                    Priemerná čítanosť
+                    <b>4501</b>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+            <section>
+                        <h3>Zoznam rubrík</h3>
+            <span class="easyAdmin fancySettingsBtn" data-ea="category" data-label="UPRAVIŤ"></span>
+            <ul class="js-deep-container-bloger-sections list">
+                                <li>
+                    <a data-deep-tags="pravo-a-politika position-1" data-deep-bloger-name="Roman Frnčo" href="https://frnco.blog.sme.sk/t/9126/pravo-a-politika">
+                        Právo a politika
+                    </a>
+                </li>
+                                <li>
+                    <a data-deep-tags="viera position-2" data-deep-bloger-name="Roman Frnčo" href="https://frnco.blog.sme.sk/t/9127/viera">
+                        Viera
+                    </a>
+                </li>
+                                <li>
+                    <a data-deep-tags="rozne position-3" data-deep-bloger-name="Roman Frnčo" href="https://frnco.blog.sme.sk/t/9128/rozne">
+                        Rôzne
+                    </a>
+                </li>
+                            </ul>
+        </section>
+    
+
+    
+
+                         <section class="message">
+            <h3>Pošlite odkaz blogerovi</h3>
+             <form name="contact_form" method="post" id="contact-bloger-frm" class="form-data" novalidate="novalidate" data-label-remaining="Počet zostávajúcich znakov: $">
+                <div class="errors">
+                    
+                </div>
+
+                <div id="preloaderContainer">
+                </div>
+                <div id="ajaxMsgContainer">
+                </div>
+
+                <div class="form-row-space"></div>
+                <div>        
+    <label for="contact_form_senderEmail" class="required">Odosielateľ (e-mail)</label>
+    <input type="email" id="contact_form_senderEmail" name="contact_form[senderEmail]" required="required" value="@" /></div>
+                <div>        
+    <label for="contact_form_message" class="required">Text</label>
+    <textarea id="contact_form_message" name="contact_form[message]" required="required"></textarea></div>
+                <div id="captcha_box" class="captcha_vis">
+                    <div>        
+    <label for="contact_form_captcha" class="required">Protispamová ochrana</label>
+        <script src="https://www.google.com/recaptcha/api.js?hl=sk" type="text/javascript"></script><div class="g-recaptcha" data-size="compact" data-theme="light" data-type="image" data-sitekey="6LfdZhMUAAAAADekgPA2v5MAcePL1-tVY3uAfe_9"></div><noscript><div style="width: 280px; height: 352px;"><div style="width: 280px; height: 352px; position: relative;"><div style="width: 280px; height: 352px; position: absolute;"><iframe src="https://www.google.com/recaptcha/api/fallback?k=6LfdZhMUAAAAADekgPA2v5MAcePL1-tVY3uAfe_9"
+                                        frameborder="0" scrolling="no"
+                                        style="width: 280px; height:352px; border-style: none;"
+                                ></iframe></div><div style="width: 250px; height: 80px; position: absolute; border-style: none; bottom: 21px; left: 25px; margin: 0px; padding: 0px; right: 25px;"><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                      class="g-recaptcha-response"
+                                      style="width: 250px; height: 80px; border: 1px solid #c1c1c1; margin: 0px; padding: 0px; resize: none;"
+                            ></textarea></div></div></div></noscript></div>
+                </div>
+                                <p>
+                    <input class="btn btn-primary" type="submit" name="submit" value="Odoslať správu" onclick="sendContactFormEmail('/contact/12269');return false;" />
+                </p>
+             </form>
+         </section>
+    
+
+</aside>
+<div id="inres_t1"></div>
+
+                        <div class="sticky"><div class="blog-ad-position ad-position-side-1">
+
+<!-- BEGIN SmeAdvertManager-Position: side_1 -->
+<div id="div-gpt-ad--43112356-blog-squarea-0-5292" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-squarea-0-5292');
+    });
+</script>
+<div id="div-gpt-ad--43112356-blog-msquarea-0-5300" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-msquarea-0-5300');
+    });
+</script>
+<!-- END SmeAdvertManager-Position: side_1 -->
+
+</div><div class="blog-ad-position ad-position-side-2">
+
+<!-- BEGIN SmeAdvertManager-Position: side_2 -->
+<div id="div-gpt-ad--43112356-blog-squareb-0-5294" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-squareb-0-5294');
+    });
+</script>
+<div id="div-gpt-ad--43112356-blog-msquareb-0-5301" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-msquareb-0-5301');
+    });
+</script>
+<!-- END SmeAdvertManager-Position: side_2 -->
+
+</div></div>
+
+            </div>
+
+
+    <script type="text/javascript">
+            window.onload=function(){
+                jQuery.ajax({url: "https://frnco.blog.sme.sk/article/stat/503858"});
+            };
+        </script>
+        <noscript>
+            <img src="https://frnco.blog.sme.sk/article/stat/503858?img=1" alt="stat" />
+        </noscript>
+    
+</div>
+
+        <div class="crossroad px-m" id="crossroad"><div>
+            <div class="bb"></div>
+            <div class="h-main-2-l my-m"><hr><h2>Už ste čítali?</h2></div>
+        </div>
+        <div class="js-deep-container-uz-ste-citali-article cf">
+            <div class="cr-box">
+                <a href="https://komentare.sme.sk/c/22065977/samo-marec-pada-matovic-zelajte-si-nieco.html?ref=blog" class="cr-photo" onclick="return sthit(this, 'sme-rozc', '22065977', '&pos=1')">
+            <img src="https://m.smedata.sk/api-media/media/image/sme/2/39/3983112/3983112_625x.jpeg?rev=4" alt="">
+        </a>
+        <div class="cr-content">
+            <a href="https://komentare.sme.sk/?ref=blog" class="cr-content-topic">Komentáre</a>
+            <h4><a href="https://komentare.sme.sk/c/22065977/samo-marec-pada-matovic-zelajte-si-nieco.html?ref=blog" onclick="return sthit(this, 'sme-rozc', '22065977', '&pos=1');">Padá Matovič, želajte si niečo (píše Samo Marec)</a></h4>
+        </div>
+    </div>
+    <div class="cr-box">
+                <a href="https://svet.sme.sk/c/22062031/kldr-severna-korea-nina-spitalnikova-kim-cong-un.html?ref=blog" class="cr-photo" onclick="return sthit(this, 'sme-rozc', '22062031', '&pos=2')">
+            <img src="https://m.smedata.sk/api-media/media/image/sme/4/40/4036974/4036974_625x.jpeg?rev=3" alt="">
+        </a>
+        <div class="cr-content">
+            <a href="https://svet.sme.sk/?ref=blog" class="cr-content-topic">Svet</a>
+            <h4><a href="https://svet.sme.sk/c/22062031/kldr-severna-korea-nina-spitalnikova-kim-cong-un.html?ref=blog" onclick="return sthit(this, 'sme-rozc', '22062031', '&pos=2');">Študovala v Severnej Kórei: O krajine nám často klamú, pracovné tábory sú ešte horšie</a></h4>
+        </div>
+    </div>
+    <div class="cr-box">
+                <a href="https://domov.sme.sk/c/22063091/biznis-ivana-kmotrika-poda-a-dotacie.html?ref=blog" class="cr-photo" onclick="return sthit(this, 'sme-rozc', '22063091', '&pos=3')">
+            <img src="https://m.smedata.sk/api-media/media/image/sme/0/40/4039820/4039820_625x.jpeg?rev=3" alt="">
+        </a>
+        <div class="cr-content">
+            <a href="https://domov.sme.sk/?ref=blog" class="cr-content-topic">Domov</a>
+            <h4><a href="https://domov.sme.sk/c/22063091/biznis-ivana-kmotrika-poda-a-dotacie.html?ref=blog" onclick="return sthit(this, 'sme-rozc', '22063091', '&pos=3');">Platby a dotácie: Ako sa z mladého Kmotríka stal farmár</a></h4>
+        </div>
+    </div>
+    <div class="cr-box">
+                <a href="https://svet.sme.sk/c/22065976/mafia-na-instagrame-camorra-preberaju-mlade-ryby-neapol.html?ref=blog" class="cr-photo" onclick="return sthit(this, 'sme-rozc', '22065976', '&pos=4')">
+            <img src="https://m.smedata.sk/api-media/media/image/sme/2/40/4048362/4048362_625x.jpeg?rev=3" alt="">
+        </a>
+        <div class="cr-content">
+            <a href="https://svet.sme.sk/?ref=blog" class="cr-content-topic">Svet</a>
+            <h4><a href="https://svet.sme.sk/c/22065976/mafia-na-instagrame-camorra-preberaju-mlade-ryby-neapol.html?ref=blog" onclick="return sthit(this, 'sme-rozc', '22065976', '&pos=4');">Omertu menia za instagram. Camorru polícia nedokáže poraziť</a></h4>
+        </div>
+    </div>
+    <div class="cr-box">
+                <a href="https://ekonomika.sme.sk/c/22062545/kiska-kde-urobil-chybu-a-preco-nie-je-ako-basternak.html?ref=blog" class="cr-photo" onclick="return sthit(this, 'sme-rozc', '22062545', '&pos=5')">
+            <img src="https://m.smedata.sk/api-media/media/image/sme/1/40/4038221/4038221_625x.jpeg?rev=4" alt="">
+        </a>
+        <div class="cr-content">
+            <a href="https://ekonomika.sme.sk/?ref=blog" class="cr-content-topic">Ekonomika</a>
+            <h4><a href="https://ekonomika.sme.sk/c/22062545/kiska-kde-urobil-chybu-a-preco-nie-je-ako-basternak.html?ref=blog" onclick="return sthit(this, 'sme-rozc', '22062545', '&pos=5');">Kde urobil Kiska chybu s daňami a prečo nie je ako Bašternák</a></h4>
+        </div>
+    </div>
+
+
+        </div>
+    </div><div class="blog-ad-position ad-position-megaboard">
+
+<!-- BEGIN SmeAdvertManager-Position: megaboard -->
+<div id="div-gpt-ad--43112356-blog-wideb-0-5295" class="js-advm-provider-dfp"></div>
+<script>
+    smeAdManager.cmd.push(function () {
+        smeAdManager.mngr.display('gtg', 'div-gpt-ad--43112356-blog-wideb-0-5295');
+    });
+</script>
+<!-- END SmeAdvertManager-Position: megaboard -->
+
+</div></div><div id="sme-footer" style="text-align: center !important;">
+<footer>
+<div class="top">
+	<nav class="site-wrapper relative">
+<a href="http://www.sme.sk" class="sme-logo-footer"><img alt="Logo SME.sk" src="//c.sme.sk/imgs/titulka/sme-logo-footer.png" /></a>
+		<a href="http://www.sme.sk/dok/kontakt/">Kontakty</a>
+		<a href="https://www.sme.sk/predplatne/?ref=pata_sme#options">Predplatné</a>
+		<a href="http://www.sme.sk/kodex/">Etický kódex</a>
+		<a href="http://www.sme.sk/dok/faq/">Pomoc</a>
+		<a href="http://www.sme.sk/mapa-stranky/">Mapa stránky</a>
+		<a href="javascript:void();" class="up" title="nahor" onclick='jQuery("html, body").animate({ scrollTop: 0 }, "fast");'><img width="23" height="13" title="" alt="" src="data:image/gif;base64,R0lGODlhFwANALMPAGlpaX19fYGBgUFBQXl5eXFxcWJiYjExMXZ2dlRUVEtLS1tbWzk5OT09PYeHhywsLCH5BAEAAA8ALAAAAAAXAA0AAART8MlJGTI06xqcw1v4NJ33HWI2lKYDoOkzCGZBe286m+/uFTCN4uaCrWrBiaKVmxx/yaUJlCGZEAxJokXVMAhXxta0iH2vrHLsYTE1CILEenKwGSIAOw==" /></a>
+	</nav>
+</div>
+<div class="bottom">
+	<div class="cf promotion site-wrapper">
+		<div class="inform">
+			<a href="http://rss.sme.sk/widget/" class="item"><i class="sme-sf-widget"></i><span class="text">Widget</span></a>
+			<a href="http://rss.sme.sk" class="item"><i class="sme-sf-rss"></i><span class="text">RSS</span></a>
+			<a href="http://www.sme.sk/suhrnsme/" class="item"><i class="sme-sf-mail"></i><span class="text">Newsletter</span></a>
+		</div>
+		<div class="read">
+			<a href="http://m.sme.sk" class="item"><i class="sme-sf-phone"></i><span class="text">Mobil</span></a>
+			<a href="http://m.sme.sk/app/" class="item"><i class="sme-sf-smartphone"></i><span class="text">Smartphone</span></a>
+			<a href="http://www.sme.sk/c/6956124/smesk-pre-ipad-a-tablety.html" class="item"><i class="sme-sf-tablet"></i><span class="text">iPad</span></a>
+			<a href="http://dennik.sme.sk/kindle/" class="item"><i class="sme-sf-kindle"></i><span class="text">Kindle</span></a>
+			<a href="http://tv.sme.sk/aplikacia/" class="item"><i class="sme-sf-tv"></i><span class="text">Televízor</span></a>
+		</div>
+		<div class="share">
+			<a href="http://www.facebook.com/sme.sk" class="item"><i class="sme-sf-facebook"></i><span class="text">Facebook</span></a>
+			<a href="http://twitter.com/denniksme" class="item"><i class="sme-sf-twitter"></i><span class="text">Twitter</span></a>
+			<a href="https://plus.google.com/108125783245694307693/" class="item"><i class="sme-sf-google"></i><span class="text">Google+</span></a>
+		</div>
+	</div>
+	<div class="sep">
+		<a href="http://www.petitpress.sk" class="sme-grey"></a>
+	</div>
+	<p class="sfooter-theend">
+		Ďalšie weby skupiny: <a href="http://www.post.sk/">Prihlásenie do Post.sk</a>
+		<a href="http://ujszo.com/">Új Szó</a> <a href="http://spectator.sme.sk/">Slovak Spectator</a>
+		<a href="http://agentury.sme.sk/">Agentúrne správy</a><br>
+		<a href="http://www.petitpress.sk">Vydavateľstvo</a>
+		<a href="http://www.petitpress.sk/inzercia/inzercia-sme-sk/">Inzercia</a>
+		<a href="http://www.sme.sk/c/7076706/zasady-nakladania-s-osobnymi-udajmi-uzivatelov.html">Osobné údaje</a>
+		<a href="http://online.aimmonitor.sk">Návštevnosť webu</a>
+		<a href="http://abcsr.sk/">Predajnosť tlače</a>
+		<a href="http://www.petitacademy.sk">Petit Academy</a>
+		<a href="http://www.sme.sk/c/6400649/clanok.html">SME v škole</a><br>		© Copyright 1997-2019 Petit Press, a.s.<br>
+	</p>
+</div>
+</footer>
+</div>
+<div class="bottom-wrap">    <script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+    <script type="text/javascript">
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>    <!-- TOPList -->
+            <a href="https://www.toplist.cz" ><script language="JavaScript" type="text/javascript">
+        <!--
+            document.write ('<img src="https://toplist.cz/dot.asp?id=105819.&amp;http='+escape(document.referrer)+'&amp;wi='+escape(window.screen.width)+'&he='+escape(window.screen.height)+'" width="1" height="1" border=0 alt="TOPlist" />');
+        //-->
+        </script>
+            <noscript><img src="https://toplist.cz/dot.asp?id=105819." border="0" alt="TOPlist" width="1" height="1" />
+        </noscript>
+    </a>
+
+            <!-- analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-66869-3']);
+        _gaq.push(['_setDomainName', '.blog.sme.sk']);
+        _gaq.push(['_trackPageview']);
+                (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/u/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    
+
+    <script type="text/javascript">
+        // config variables
+        var smeBlog = smeBlog || {};
+        smeBlog.host = 'blog.sme.sk';
+        smeBlog.authServiceType = 'centralAccess';
+    </script>            <script type="text/javascript" src="https://a.smedata.sk/blog/bundles/static/js/compiled/script_b.js?r=27ca"></script>
+        
+
+<!-- BEGIN SmeAdvertManager-Position: _init -->
+<script>
+            // for BC with old Advert manager
+            var smeAdvertManager = {debugEnabled: false};</script>
+<!-- END SmeAdvertManager-Position: _init -->
+
+
+        <script>smeAdvertManager.debugEnabled = (stormCookie.getCookie('advert_manager_debug_info_cookie') == 'GHjj&^8JHg2j9UY&');</script>
+        
+
+<!-- BEGIN SmeAdvertManager-Position: _footer -->
+<!-- TAGS: site=article | section=blog | default=blog-->
+<!-- END SmeAdvertManager-Position: _footer -->
+
+<script>
+function sme_cf_loadCSS(e, t, n) {
+    "use strict";
+    var i = window.document.createElement("link");
+    var o = t || window.document.getElementsByTagName("script")[0];
+    i.rel = "stylesheet";
+    i.href = e;
+    i.media = "only x";
+    o.parentNode.insertBefore(i, o);
+    setTimeout(function () {
+        i.media = n || "all" 
+    })
+}
+sme_cf_loadCSS('https://a.smedata.sk/monitor/bundles/smeblockmanagerapi/css/corpbar/sme-export-main.css?rev=2');
+</script>
+<div id="et-active"><img src="https://sk.search.etargetnet.com/img/active/smesk21462.gif" width="0" height="0" style="border: none;"  alt="" /></div>
+<!-- Google Code for All Visitors -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 997828674;
+var google_conversion_label = "K0LMCNbzlQMQwtDm2wM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/997828674/?value=0&amp;label=K0LMCNbzlQMQwtDm2wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1018357598241990');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none" 
+src="https://www.facebook.com/tr?id=1018357598241990&ev=PageView&noscript=1" 
+/></noscript>
+<!-- End Facebook Pixel Code -->
+                                    <!-- Deep Media Analytics (c) 2016-06-28 v1.2.3 -->
+
+
+                
+
+<script type="text/javascript" src="https://a.smedata.sk/blog/bundles/smeblogweb/js/ad-blocker/adblockDetector.js?r=27ca"></script>
+<script type="text/javascript" src="https://a.smedata.sk/blog/bundles/smeblogweb/js/deep-attention/1.2.27/api-deep-stub-v1.min.js?r=27ca"></script>
+<script type="text/javascript">
+        var smeDeepTracker = DeepTrack.track('GF8KGFuj0MDz', 'YXk3XymJF27IottCSlUmTQiH'); //#27333
+    smeDeepTracker.options.media = true;
+        </script>
+<script type="text/javascript" src="https://a.smedata.sk/blog/bundles/smeblogweb/js/deep-attention/sme-deep-class.js?r=27ca"></script>
+<script type="text/javascript" src="https://a.smedata.sk/blog/bundles/smeblogweb/js/deep-attention/sme-deep-event.js?r=27ca"></script>
+
+
+
+<script type="text/javascript">
+                smeDeepClass.collectData(smeDeepTracker, {'user.piano.content-unlocked': (1 ? 'true' : 'false')});
+    
+        smeDeepClass.collectData(smeDeepTracker, {
+        'page.domain': 'blog.sme.sk',
+        'page.redaction-type': 'blog',
+        'page.redaction-sub-type': 'users',
+        'page.locality': 'bratislava',
+        'page.technology': 'blog',
+        'page.department': [6203026,620302602,630203],
+        'page.aim-nodes': ["sme.sk | Sluzby SME","sme.sk","Sluzby SME"],
+    });
+
+    smeDeepClass.routeSlug = '/c/503858/pravda-o-s-harabinovi.html';
+
+            smeDeepClass.collectUrlParameters();
+    
+                                        var deepEvent = {
+            'article.template': 'blog',
+            'article.id': '503858',
+            'article.name': 'Pravda o Š. Harabinovi',
+            'article.blogername': 'Roman Frnčo',
+            'article.path': 'https://frnco.blog.sme.sk/c/503858/pravda-o-s-harabinovi.html',
+        };
+        smeDeepClass.collectData(smeDeepTracker, deepEvent);
+        smeDeepClass.collectData(smeDeepTracker, {'article.published.date': '2019-03-06T17:17:07+01:00'});
+        smeDeepTracker.transform({
+            dateSplit: {
+                fromField: 'sme.article.published.date',
+                toField: 'sme.article.published',
+                mode: 'merge',
+                parts: 'all'
+            }
+        });
+        if (typeof smeBlogLayoutType == 'function') {
+        smeDeepClass.collectData(smeDeepTracker, {'page.layout': smeBlogLayoutType()});
+    } else {
+        smeDeepClass.collectData(smeDeepTracker, {'page.layout': 'none'});
+    }
+
+                    smeDeepClass.collectData(smeDeepTracker, {'article.bloger': 'frnco'});
+        
+</script>
+<script type="text/javascript" src="https://a.smedata.sk/blog/bundles/smeblogweb/js/deep-attention/sme-deep-mapping.js?r=27ca"></script>
+
+    
+</div>
+
+            
+            <script type="text/javascript">
+        jQuery( document ).ready(function( $ ) {
+            if (jQuery('.sticky').length) {
+                setTimeout(function(){jQuery('.sticky').stickyPanel('js-content')}, 2000);
+            }
+        });
+    </script>
+            <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a21ab9ccfb","applicationID":"62297114","transactionName":"NQZUMkoCX0VXBUFbCwxMdwVMCl5YGRVYVzsAD1kBZxRUVGkHR0YNAQ9T","queueTime":0,"applicationTime":60,"atts":"GUFXRAIYTEs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
