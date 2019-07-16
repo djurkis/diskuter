@@ -97,8 +97,6 @@ class Encoder(tf.keras.Model):
 
 encoder = Encoder(vocab_inp_size, embedding_dim, units, BATCH_SIZE)
 
-# print ('Encoder output shape: (batch size, sequence length, units) {}'.format(sample_output.shape))
-# print ('Encoder Hidden state shape: (batch size, units) {}'.format(sample_hidden.shape))
 
 
 class BahdanauAttention(tf.keras.Model):
@@ -130,12 +128,6 @@ class BahdanauAttention(tf.keras.Model):
         return context_vector, attention_weights
 
 
-# attention_layer = BahdanauAttention(10)
-# attention_result, attention_weights = attention_layer(
-#     sample_hidden, sample_output)
-#
-# print("Attention result shape: (batch size, units) {}".format(attention_result.shape))
-# print("Attention weights shape: (batch_size, sequence_length, 1) {}".format(attention_weights.shape))
 
 
 class Decoder(tf.keras.Model):
@@ -231,6 +223,16 @@ def train_step(inp, targ, enc_hidden):
     return batch_loss
 
 
+
+# TODO: improve logging
+
+
+checkpoint_dir = './training_checkpoints'
+checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
+checkpoint = tf.train.Checkpoint(optimizer=optimizer,
+                                 encoder=encoder,
+                                 decoder=decoder)
+
 for epoch in range(EPOCHS):
     start = time.time()
     enc_hidden = encoder.initialize_hidden_state()
@@ -251,3 +253,5 @@ for epoch in range(EPOCHS):
     print('Epoch {} Loss {:.4f}'.format(epoch + 1,
                                         total_loss / steps_per_epoch))
     print('Time taken for 1 epoch {} sec\n'.format(time.time() - start))
+
+# inference
