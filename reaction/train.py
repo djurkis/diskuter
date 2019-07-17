@@ -146,7 +146,7 @@ class Network:
     def prepare_data(self, args, data):
 
         # take some data and divide
-        print("tokens")
+
         data = data[:args.max_sentences]
         titulky = []
         komentare = []
@@ -209,6 +209,8 @@ class Network:
         total_loss = 0
 
         for (batch, (inp, targ)) in enumerate(dataset.take(steps_per_epoch)):
+            # print(inp.shape)
+            # sys.exit(0)
             batch_loss = self.train_batch(inp, targ, enc_hidden)
             total_loss += batch_loss
 
@@ -225,19 +227,23 @@ class Network:
     def evaluate(self, args, sentence):
 
         sentence = preprocess(sentence)
-        tensor = self.tokenizer.texts_to_sequences(sentence)
+        # print(sentence)
+        tensor = self.tokenizer.texts_to_sequences([sentence])
         result = ''
-
-        hidden = [tf.zeros((1, args.rnn_dim))]
-        enc_out, enc_hidden = self.model.encoder(inputs, hidden)
+        hidden = tf.zeros((1, args.rnn_dim))
+        # print(type(tensor),type(hidden))
+        # sys.exit(0)
+        # print(tensor)
+        enc_out, enc_hidden = self._model.encoder(tf.convert_to_tensor(tensor), hidden)
 
         dec_hidden = enc_hidden
         dec_input = tf.expand_dims([self.tokenizer.word_index['<sos>']], 0)
 
         for t in range(args.max_length):
-            predictions, dec_hidden, _ = self.model.decoder(dec_input,
+            predictions, dec_hidden, _ = self._model.decoder(dec_input,
                                                                  dec_hidden,enc_out)
-            predicted_id = tf.argmax(predictions[0].numpy())
+            predicted_id = tf.argmax(predictions[0]).numpy()
+
 
             predicted_word = self.tokenizer.index_word[predicted_id]
 
@@ -264,11 +270,11 @@ if __name__ == "__main__":
                         help="Number of epochs.")
     parser.add_argument("--max_sentences", default=2000,
                         type=int, help="Maximum number of sentences to load.")
-    parser.add_argument("--rnn_dim", default=64, type=int,
+    parser.add_argument("--rnn_dim", default=32, type=int,
                         help="RNN cell dimension.")
     parser.add_argument("--threads", default=8, type=int,
                         help="Maximum number of threads to use.")
-    parser.add_argument("--vocab_limit", default=30000, type=int,
+    parser.add_argument("--vocab_limit", default=20000, type=int,
                         help="Maximum number of words to use in vocab.")
     parser.add_argument("--lr", default=0.001, type=float,
                         help="Learning rate for optimizer.")
@@ -294,10 +300,12 @@ if __name__ == "__main__":
     with open("half_filtered", 'rb') as h:
         raw_data = pickle.load(h)
 
-    print("asd")
     data = network.prepare_data(args, raw_data)
     network.train(args, data)
 
+
+    result,_ = network.evaluate(args,"Na Ukrajine odštartovala predvolebná kampaň")
+    print(result)
     # Generate test set annotations, but in args.logdir to allow parallel execution.
     # out_path="lemmatizer_competition_test.txt"
     # if os.path.isdir(args.logdir):
