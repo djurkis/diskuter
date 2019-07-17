@@ -239,7 +239,7 @@ class Network:
                                                                  dec_hidden,enc_out)
             predicted_id = tf.argmax(predictions[0].numpy())
 
-            predicted_word = self.tokenizer.index_word[predicted_word]
+            predicted_word = self.tokenizer.index_word[predicted_id]
 
             # pokial nieje eos tak pokracuj v predikcii
             if predicted_word != "<eos>":
