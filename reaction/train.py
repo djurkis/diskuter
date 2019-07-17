@@ -225,7 +225,7 @@ class Network:
                 epoch, time.time() - start))
 
     def evaluate(self, args, sentence):
-
+        ids=[]
         sentence = preprocess(sentence)
         # print(sentence)
         tensor = self.tokenizer.texts_to_sequences([sentence])
@@ -243,17 +243,20 @@ class Network:
             predictions, dec_hidden, _ = self._model.decoder(dec_input,
                                                                  dec_hidden,enc_out)
             predicted_id = tf.argmax(predictions[0]).numpy()
-
+            print(predictions[0])
+            ids.append(predicted_id)
 
             predicted_word = self.tokenizer.index_word[predicted_id]
 
             # pokial nieje eos tak pokracuj v predikcii
-            if predicted_word != "<eos>":
+            # blbost ... po eos nevie co ma dat...
+
+            if (predicted_word != "<eos>"):
                 result+=predicted_word+' '
                 dec_input=tf.expand_dims([predicted_id],0)
             else:
-                return result,sentence
-        return result,sentence
+                return result,sentence,ids
+        return result,sentence,ids
 
 
 if __name__ == "__main__":
@@ -264,13 +267,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--batch_size", default=32,
                         type=int, help="Batch size.")
-    parser.add_argument("--embed_dim", default=32, type=int,
+    parser.add_argument("--embed_dim", default=64, type=int,
                         help="CLE embedding dimension.")
     parser.add_argument("--epochs", default=10, type=int,
                         help="Number of epochs.")
-    parser.add_argument("--max_sentences", default=2000,
+    parser.add_argument("--max_sentences", default=5000,
                         type=int, help="Maximum number of sentences to load.")
-    parser.add_argument("--rnn_dim", default=32, type=int,
+    parser.add_argument("--rnn_dim", default=64, type=int,
                         help="RNN cell dimension.")
     parser.add_argument("--threads", default=8, type=int,
                         help="Maximum number of threads to use.")
@@ -304,8 +307,10 @@ if __name__ == "__main__":
     network.train(args, data)
 
 
-    result,_ = network.evaluate(args,"Na Ukrajine odštartovala predvolebná kampaň")
+    result,sent,ids = network.evaluate(args,"Na Ukrajine odštartovala predvolebná kampaň")
     print(result)
+    print(sent)
+    print(ids)
     # Generate test set annotations, but in args.logdir to allow parallel execution.
     # out_path="lemmatizer_competition_test.txt"
     # if os.path.isdir(args.logdir):
