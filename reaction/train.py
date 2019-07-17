@@ -121,7 +121,8 @@ class Network:
                     from_logits=True, reduction='none')
         self._model = Model()
 # todo
-        self.tokenizer = tf.keras.preprocessing.text.Tokenizer(filters='', num_words=args.vocab_limit, oov_token="<unk>")
+        self.tokenizer = tf.keras.preprocessing.text.Tokenizer(
+            filters='', num_words=args.vocab_limit, oov_token="<unk>")
         self.optimizer = tf.keras.optimizers.Adam()
         self.loss = tf.keras.losses.SparseCategoricalCrossentropy(
             from_logits=True, reduction='none')
@@ -171,7 +172,6 @@ class Network:
         dataset = dataset.batch(args.batch_size, drop_remainder=True)
         return dataset
 
-
     def train_batch(self, inp, targ, enc_hidden):
         loss = 0
 
@@ -190,7 +190,6 @@ class Network:
                 # print(predictions)
                 dec_input = tf.expand_dims(targ[:, t], 1)
 
-
             batch_loss = (loss / int(targ.shape[1]))
 
             variables = self._model.encoder.trainable_variables + \
@@ -201,7 +200,6 @@ class Network:
             self.optimizer.apply_gradients(zip(gradients, variables))
 
         return batch_loss
-
 
     def train_epoch(self, args, dataset):
         # zbytocne
@@ -217,13 +215,39 @@ class Network:
             if batch % 100 == 0:
                 print('Batch {} Loss {:.4f}'.format(batch, batch_loss.numpy()))
 
-
     def train(self, args, dataset):
         for epoch in range(args.epochs):
             start = time.time()
             self.train_epoch(args, dataset)
             print('Epoch {} finished in {} seconds.'.format(
                 epoch, time.time() - start))
+
+    def evaluate(self, args, sentence):
+
+        sentence = preprocess(sentence)
+        tensor = self.tokenizer.texts_to_sequences(sentence)
+        result = ''
+
+        hidden = [tf.zeros((1, args.rnn_dim))]
+        enc_out, enc_hidden = self.model.encoder(inputs, hidden)
+
+        dec_hidden = enc_hidden
+        dec_input = tf.expand_dims([self.tokenizer.word_index['<sos>']], 0)
+
+        for t in range(args.max_length):
+            predictions, dec_hidden, _ = self.model.decoder(dec_input,
+                                                                 dec_hidden,enc_out)
+            predicted_id = tf.argmax(predictions[0].numpy())
+
+            predicted_word = self.tokenizer.index_word[predicted_word]
+
+            # pokial nieje eos tak pokracuj v predikcii
+            if predicted_word != "<eos>":
+                result+=predicted_word+' '
+                dec_input=tf.expand_dims([predicted_id],0)
+            else:
+                return result,sentence
+        return result,sentence
 
 
 if __name__ == "__main__":
@@ -248,6 +272,8 @@ if __name__ == "__main__":
                         help="Maximum number of words to use in vocab.")
     parser.add_argument("--lr", default=0.001, type=float,
                         help="Learning rate for optimizer.")
+    parser.add_argument("--max_length", default=40, type=int,
+                        help="Maximum length of output sentence.")
     args = parser.parse_args()
 
     tf.config.threading.set_inter_op_parallelism_threads(args.threads)
