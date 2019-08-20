@@ -8,26 +8,28 @@ import sys
 import time
 
 
-def preprocess(sent, maximum_length=40):
+def preprocess(sent, maximum_words=3):
     w = sent.lower()
     w = re.sub(r"([?,.!])", r" \1 ", w)
     w = re.sub(r'[" "]+', " ", w)
+    w = w.replace("quot", "")
     w = w.translate(str.maketrans('', '', '\"#$%&\'()*+-/:;<=>@[\\]^_`{|}~'))
     w = w.rstrip().strip()
-    w = '<SOS> ' + w[:maximum_length] + ' <EOS>'
+    x = w.split(' ')[:3]
+    w = '<SOS> ' + " ".join(x) + ' <EOS>'
     return w
 
 
 class Encoder(tf.keras.Model):
-    def __init__(self, vocab_size, embedding_dim, enc_units, batch_sz):
+    def __init__(self, vocab_size, embedding_dim, enc_units, batch_size):
         super(Encoder, self).__init__()
-        self.batch_sz = batch_sz
+        self.batch_sz = batch_size
         self.enc_units = enc_units
         self.embedding = tf.keras.layers.Embedding(vocab_size, embedding_dim)
         self.gru = tf.keras.layers.GRU(self.enc_units,
-                                       return_sequences=True,
-                                       return_state=True,
-                                       recurrent_initializer='glorot_uniform')
+                                            return_sequences=True,
+                                            return_state=True,
+                                            recurrent_initializer='glorot_uniform')
 
     def call(self, x, hidden):
         x = self.embedding(x)
@@ -45,64 +47,41 @@ class Decoder(tf.keras.Model):
         self.dec_units = dec_units
         self.embedding = tf.keras.layers.Embedding(vocab_size, embedding_dim)
         self.gru = tf.keras.layers.GRU(self.dec_units,
-                                       return_sequences=True,
-                                       return_state=True,
-                                       recurrent_initializer='glorot_uniform')
+                                            return_sequences=True,
+                                            return_state=True,
+                                            recurrent_initializer='glorot_uniform')
         self.fc = tf.keras.layers.Dense(vocab_size)
 
         # used for attention
-        self.attention = BahdanauAttention(self.dec_units)
+        self.W1 = tf.keras.layers.Dense(self.dec_units)
+        self.W2 = tf.keras.layers.Dense(self.dec_units)
+        self.V = tf.keras.layers.Dense(1)
 
     def call(self, x, hidden, enc_output):
         # enc_output shape == (batch_size, max_length, hidden_size)
-        context_vector, attention_weights = self.attention(hidden, enc_output)
+        hidden_with_time_axis = tf.expand_dims(hidden, 1)
+        score = self.V(tf.nn.tanh(self.W1(enc_output) +
+                                  self.W2(hidden_with_time_axis)))
+        attention_weights = tf.nn.softmax(score, axis=1)
 
-        # x shape after passing through embedding == (batch_size, 1, embedding_dim)
+        context_vector = attention_weights * enc_output
+        context_vector = tf.reduce_sum(context_vector, axis=1)
         x = self.embedding(x)
-
-        # x shape after concatenation == (batch_size, 1, embedding_dim + hidden_size)
         x = tf.concat([tf.expand_dims(context_vector, 1), x], axis=-1)
-
-        # passing the concatenated vector to the GRU
         output, state = self.gru(x)
-
-        # output shape == (batch_size * 1, hidden_size)
         output = tf.reshape(output, (-1, output.shape[2]))
-
-        # output shape == (batch_size, vocab)
         x = self.fc(output)
+
 
         return x, state, attention_weights
 
+    def initialize_hidden_state(self):
+        return tf.zeros((self.batch_sz, self.dec_units))
 
-class BahdanauAttention(tf.keras.Model):
-    def __init__(self, units):
-        super(BahdanauAttention, self).__init__()
-        self.W1 = tf.keras.layers.Dense(units)
-        self.W2 = tf.keras.layers.Dense(units)
-        self.V = tf.keras.layers.Dense(1)
-
-    def call(self, query, values):
-        # hidden shape == (batch_size, hidden size)
-        # hidden_with_time_axis shape == (batch_size, 1, hidden size)
-        # we are doing this to perform addition to calculate the score
-        hidden_with_time_axis = tf.expand_dims(query, 1)
-
-        # score shape == (batch_size, max_length, 1)
-        # we get 1 at the last axis because we are applying score to self.V
-        # the shape of the tensor before applying self.V is (batch_size, max_length, units)
-        score = self.V(tf.nn.tanh(
-            self.W1(values) + self.W2(hidden_with_time_axis)))
-
-        # attention_weights shape == (batch_size, max_length, 1)
-        attention_weights = tf.nn.softmax(score, axis=1)
-
-        # context_vector shape after sum == (batch_size, hidden_size)
-        context_vector = attention_weights * values
-        context_vector = tf.reduce_sum(context_vector, axis=1)
-
-        return context_vector, attention_weights
-
+def loss_function(real, pred):
+    mask = 1 - np.equal(real, 0)
+    loss_ = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=real, logits=pred) * mask
+    return tf.reduce_mean(loss_)
 
 class Network:
     def __init__(self, args, num_source_chars):
@@ -114,35 +93,16 @@ class Network:
                     num_source_chars, args.embed_dim, args.rnn_dim, args.batch_size)
                 self.decoder = Decoder(
                     num_source_chars, args.embed_dim, args.rnn_dim, args.batch_size)
-                self.optimizer = tf.keras.optimizers.Adam(
-                    learning_rate=args.lr)
 
-                self.loss = tf.keras.losses.SparseCategoricalCrossentropy(
-                    from_logits=True, reduction='none')
         self._model = Model()
 # todo
         self.tokenizer = tf.keras.preprocessing.text.Tokenizer(
             filters='', num_words=args.vocab_limit, oov_token="<unk>")
-        self.optimizer = tf.keras.optimizers.Adam()
-        self.loss = tf.keras.losses.SparseCategoricalCrossentropy(
-            from_logits=True, reduction='none')
+        self.optimizer = tf.keras.optimizers.Adam(learning_rate=args.lr)
 
-        # self.loss_function=
 
-        # writers
-
-    @tf.function
-    def lossf(self, real, pred):
-        mask = tf.math.logical_not(tf.math.equal(real, 0))
-        loss_ = self.loss(real, pred)
-
-        mask = tf.cast(mask, dtype=loss_.dtype)
-        loss_ *= mask
-
-        return tf.reduce_mean(loss_)
 
     # returns a tf.dataset object that is batchable
-
     def prepare_data(self, args, data):
 
         # take some data and divide
@@ -154,10 +114,12 @@ class Network:
             for koment in clanok:
                 titulky.append(preprocess(koment["title"]))
                 komentare.append(preprocess(koment["reaction"]))
+                break
 
         # create vocab and tokenize
         self.tokenizer.fit_on_texts(titulky)
         self.tokenizer.fit_on_texts(komentare)
+
         tensor_titulky = self.tokenizer.texts_to_sequences(titulky)
         tensor_koment = self.tokenizer.texts_to_sequences(komentare)
         # padding
@@ -174,7 +136,6 @@ class Network:
 
     def train_batch(self, inp, targ, enc_hidden):
         loss = 0
-
         with tf.GradientTape() as tape:
             enc_output, enc_hidden = self._model.encoder(inp, enc_hidden)
             dec_hidden = enc_hidden
@@ -186,17 +147,17 @@ class Network:
                 predictions, dec_hidden, _ = self._model.decoder(
                     dec_input, dec_hidden, enc_output)
 
-                loss += self.lossf(targ[:, t], predictions)
-                # print(predictions)
+                # sem dat prerobeny loss
+                loss += loss_function(targ[:,t], predictions)
+
                 dec_input = tf.expand_dims(targ[:, t], 1)
 
-            batch_loss = (loss / int(targ.shape[1]))
 
-            variables = self._model.encoder.trainable_variables + \
-                self._model.decoder.trainable_variables
+            batch_loss = (loss / int(targ.shape[1]))
+            variables = self._model.encoder.variables + \
+                self._model.decoder.variables
 
             gradients = tape.gradient(loss, variables)
-
             self.optimizer.apply_gradients(zip(gradients, variables))
 
         return batch_loss
@@ -210,12 +171,11 @@ class Network:
 
         for (batch, (inp, targ)) in enumerate(dataset.take(steps_per_epoch)):
             # print(inp.shape)
-            # sys.exit(0)
             batch_loss = self.train_batch(inp, targ, enc_hidden)
             total_loss += batch_loss
-
-            if batch % 100 == 0:
-                print('Batch {} Loss {:.4f}'.format(batch, batch_loss.numpy()))
+            print(batch_loss)
+            print('Batch {}/{} Loss {:.4f}'.format(batch,
+                                                   steps_per_epoch, batch_loss.numpy()))
 
     def train(self, args, dataset):
         for epoch in range(args.epochs):
@@ -225,25 +185,22 @@ class Network:
                 epoch, time.time() - start))
 
     def evaluate(self, args, sentence):
-        ids=[]
+        ids = []
         sentence = preprocess(sentence)
-        # print(sentence)
         tensor = self.tokenizer.texts_to_sequences([sentence])
         result = ''
         hidden = tf.zeros((1, args.rnn_dim))
-        # print(type(tensor),type(hidden))
-        # sys.exit(0)
-        # print(tensor)
-        enc_out, enc_hidden = self._model.encoder(tf.convert_to_tensor(tensor), hidden)
+
+        enc_out, enc_hidden = self._model.encoder(
+            tf.convert_to_tensor(tensor), hidden)
 
         dec_hidden = enc_hidden
         dec_input = tf.expand_dims([self.tokenizer.word_index['<sos>']], 0)
 
         for t in range(args.max_length):
             predictions, dec_hidden, _ = self._model.decoder(dec_input,
-                                                                 dec_hidden,enc_out)
+                                                             dec_hidden, enc_out)
             predicted_id = tf.argmax(predictions[0]).numpy()
-            print(predictions[0])
             ids.append(predicted_id)
 
             predicted_word = self.tokenizer.index_word[predicted_id]
@@ -252,11 +209,14 @@ class Network:
             # blbost ... po eos nevie co ma dat...
 
             if (predicted_word != "<eos>"):
-                result+=predicted_word+' '
-                dec_input=tf.expand_dims([predicted_id],0)
+                result += predicted_word + ' '
+                dec_input = tf.expand_dims([predicted_id], 0)
             else:
-                return result,sentence,ids
-        return result,sentence,ids
+                return result, sentence, ids
+        return result, sentence, ids
+
+
+
 
 
 if __name__ == "__main__":
@@ -265,19 +225,19 @@ if __name__ == "__main__":
 
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=32,
+    parser.add_argument("--batch_size", default=2,
                         type=int, help="Batch size.")
-    parser.add_argument("--embed_dim", default=64, type=int,
+    parser.add_argument("--embed_dim", default=4, type=int,
                         help="CLE embedding dimension.")
-    parser.add_argument("--epochs", default=10, type=int,
+    parser.add_argument("--epochs", default=1, type=int,
                         help="Number of epochs.")
-    parser.add_argument("--max_sentences", default=5000,
+    parser.add_argument("--max_sentences", default=2,
                         type=int, help="Maximum number of sentences to load.")
-    parser.add_argument("--rnn_dim", default=64, type=int,
+    parser.add_argument("--rnn_dim", default=4, type=int,
                         help="RNN cell dimension.")
     parser.add_argument("--threads", default=8, type=int,
                         help="Maximum number of threads to use.")
-    parser.add_argument("--vocab_limit", default=20000, type=int,
+    parser.add_argument("--vocab_limit", default=10000, type=int,
                         help="Maximum number of words to use in vocab.")
     parser.add_argument("--lr", default=0.001, type=float,
                         help="Learning rate for optimizer.")
@@ -285,8 +245,10 @@ if __name__ == "__main__":
                         help="Maximum length of output sentence.")
     args = parser.parse_args()
 
-    tf.config.threading.set_inter_op_parallelism_threads(args.threads)
-    tf.config.threading.set_intra_op_parallelism_threads(args.threads)
+    np.random.seed(42)
+    tf.random.set_seed(42)
+    tf.config.threading.set_inter_op_parallelism_threads(8)
+    tf.config.threading.set_intra_op_parallelism_threads(8)
 
     # Create logdir name
     args.logdir = os.path.join("logs", "{}-{}-{}".format(
@@ -298,6 +260,8 @@ if __name__ == "__main__":
 
 
 # dumb arguments
+
+    # tokenize and check how many words
     network = Network(args, args.vocab_limit)
 
     with open("half_filtered", 'rb') as h:
@@ -306,28 +270,17 @@ if __name__ == "__main__":
     data = network.prepare_data(args, raw_data)
     network.train(args, data)
 
+    data = raw_data[:2]
+    titulky = []
+    komentare = []
+    for clanok in data:
+        for koment in clanok:
+            titulky.append(preprocess(koment["title"]))
+            komentare.append(preprocess(koment["reaction"]))
+            break
 
-    result,sent,ids = network.evaluate(args,"Na Ukrajine odštartovala predvolebná kampaň")
-    print(result)
-    print(sent)
-    print(ids)
-    # Generate test set annotations, but in args.logdir to allow parallel execution.
-    # out_path="lemmatizer_competition_test.txt"
-    # if os.path.isdir(args.logdir):
-    #     out_path=os.path.join(args.logdir, out_path)
-    # with open(out_path, "w", encoding = "utf-8") as out_file:
-    #     for i, sentence in enumerate(network.predict(morpho.test, args)):
-    #
-    #         for j in range(len(morpho.test.data[morpho.test.FORMS].word_strings[i])):
-    #             lemma=[]
-    #             for c in map(int, sentence[j]):
-    #                 if c == MorphoDataset.Factor.EOW:
-    #                     break
-    #                 lemma.append(
-    #                     morpho.test.data[morpho.test.LEMMAS].alphabet[c])
-    #
-    #             print(morpho.test.data[morpho.test.FORMS].word_strings[i][j],
-    #                   "".join(lemma),
-    #                   morpho.test.data[morpho.test.TAGS].word_strings[i][j],
-    #                   sep = "\t", file = out_file)
-    #         print(file = out_file)
+    for i, (t, k) in enumerate(zip(titulky, komentare)):
+        if i > 10:
+            break
+        result, sent, ids = network.evaluate(args, t)
+        print("t= {} --> r={}  | l ={} ".format(t, result, k))
