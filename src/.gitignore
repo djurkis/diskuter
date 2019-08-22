@@ -1,0 +1,4 @@
+*.zip
+*.csv
+*.pickle
+__pycache__/
