@@ -13,21 +13,21 @@ if __name__ == "__main__":
     import re
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=20,
+    parser.add_argument("--batch_size", default=10,
                         type=int, help="Batch size.")
-    parser.add_argument("--embed_dim", default=32, type=int,
+    parser.add_argument("--embed_dim", default=128, type=int,
                         help="CLE embedding dimension.")
-    parser.add_argument("--epochs", default=100, type=int,
+    parser.add_argument("--epochs", default=200, type=int,
                         help="Number of epochs.")
-    parser.add_argument("--max_sentences", default=50,
+    parser.add_argument("--max_sentences", default=250,
                         type=int, help="Maximum number of sentences to load.")
-    parser.add_argument("--rnn_dim", default=64, type=int,
+    parser.add_argument("--rnn_dim", default=256, type=int,
                         help="RNN cell dimension.")
     parser.add_argument("--threads", default=8, type=int,
                         help="Maximum number of threads to use.")
     parser.add_argument("--vocab_limit", default=10000, type=int,
                         help="Maximum number of words to use in vocab.")
-    parser.add_argument("--lr", default=0.001, type=float,
+    parser.add_argument("--lr", default=0.003, type=float,
                         help="Learning rate for optimizer.")
     parser.add_argument("--max_length", default=40, type=int,
                         help="Maximum length of output sentence.")
@@ -57,10 +57,11 @@ if __name__ == "__main__":
 
 
 
+# test evalutaion
     titulky,komentare = pre.get_data(args,max=5)
 
     for i, (t, k) in enumerate(zip(titulky, komentare)):
         if i > 10:
             break
         result, sent, ids = network.evaluate(args, t)
-        print("t= {} --> r={}  | l ={} ".format(t, result, k))
+        print("{} -- {}".format(result,k))

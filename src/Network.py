@@ -7,6 +7,8 @@ import tensorflow as tf
 import numpy as np
 import Preprocessing as pre
 import time
+import os
+
 
 def loss_function(real, pred):
     mask = 1 - np.equal(real, 0)
@@ -86,17 +88,21 @@ class Network:
             batch_loss = self.train_batch(inp, targ, enc_hidden)
             total_loss += batch_loss
             print('Batch {} Loss {:.4f}'.format(batch, batch_loss.numpy()))
-            
+
         return total_loss
 
 
     def train(self, args, dataset):
+        check_dir = './training_checkpoints'
+        check_prefix = os.path.join(check_dir,"c")
+        checkpoint = tf.train.Checkpoint(optimizer=self.optimizer, model=self._model)
         for epoch in range(args.epochs):
             start = time.time()
             epoch_loss = self.train_epoch(args, dataset)
             print('Epoch {} had {} LOSS finished in {} seconds.'.format(
                 epoch,epoch_loss, time.time() - start))
-
+            if epoch % 5 ==4:
+                checkpoint.save(file_prefix=check_prefix)
 
 
 
@@ -106,7 +112,7 @@ class Network:
         ids = []
         sentence = pre.preprocess(sentence)
         tensor = self.tokenizer.texts_to_sequences([sentence])
-        result = ''
+        result = []
         hidden = tf.zeros((1, args.rnn_dim))
 
         enc_out, enc_hidden = self._model.encoder(
@@ -123,8 +129,10 @@ class Network:
             predicted_word = self.tokenizer.index_word[predicted_id]
 
             if (predicted_word != "<eos>"):
-                result += predicted_word + ' '
+                result.append(predicted_word)
                 dec_input = tf.expand_dims([predicted_id], 0)
+            elif predicted_word =="<eos>" and len(result)<3 :
+                continue
             else:
                 return result, sentence, ids
-        return result, sentence, ids
+        return " ".join(result), sentence, ids

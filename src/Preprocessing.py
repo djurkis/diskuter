@@ -26,17 +26,16 @@ def limit_sent_length(sent,max):
 # hardcoded path to file....
 def get_data(args,max=0):
     """Returns headlines and commentaries paired by indexes"""
-
     titulky = []
     komentare = []
     with open("/home/jurkis/diskuter/data/half_filtered", 'rb') as h:
         data = pickle.load(h)
         maximum = args.max_sentences if max==0 else max
         data = data[:maximum]
-        
+
         for clanok in data:
             for koment in clanok:
-                titulky.append(preprocess(koment["title"]))
-                komentare.append(preprocess(koment["reaction"]))
+                titulky.append(limit_sent_length(preprocess(koment["title"]),10))
+                komentare.append(limit_sent_length(preprocess(koment["reaction"]),10))
                 break
     return titulky , komentare
