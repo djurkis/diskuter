@@ -13,13 +13,13 @@ if __name__ == "__main__":
     import re
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=10,
+    parser.add_argument("--batch_size", default=32,
                         type=int, help="Batch size.")
     parser.add_argument("--embed_dim", default=128, type=int,
                         help="CLE embedding dimension.")
-    parser.add_argument("--epochs", default=200, type=int,
+    parser.add_argument("--epochs", default=50, type=int,
                         help="Number of epochs.")
-    parser.add_argument("--max_sentences", default=250,
+    parser.add_argument("--max_sentences", default=20,
                         type=int, help="Maximum number of sentences to load.")
     parser.add_argument("--rnn_dim", default=256, type=int,
                         help="RNN cell dimension.")
@@ -63,5 +63,5 @@ if __name__ == "__main__":
     for i, (t, k) in enumerate(zip(titulky, komentare)):
         if i > 10:
             break
-        result, sent, ids = network.evaluate(args, t)
+        result, sent, ids = network.beam_evaluate(args, t)
         print("{} -- {}".format(result,k))
