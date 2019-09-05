@@ -11,17 +11,23 @@ import os
 
 
 class Hypothesis:
-    def __init__(self, logits=0):
-        self.logits = logits
-        self.value = ""
+    def __init__(self, logit):
+        self.word_ids = []
+        self.value = np.double(logit)
 
     def add_hidden(self, h):
-        self.dec_hidden = h
+        self.hidden = h
+
+    def add_word_id(self, word_id):
+        self.word_ids.append(word_id)
 
     def add_dec_out(self, out):
         self.dec_out = out
-    def add_dec_input(self,dec_input):
 
+    def set_history(self, path):
+        self.word_ids.extend(path.word_ids)
+
+    def add_dec_input(self, dec_input):
         self.dec_input = dec_input
 
     def update_value(self, logit):
@@ -91,14 +97,14 @@ class Network:
                     dec_input, dec_hidden, enc_output)
                 loss += loss_function(targ[:, t], predictions)
                 dec_input = tf.expand_dims(targ[:, t], 1)
-                loss = loss / batch_size
 
+            batch_loss = loss / batch_size
             variables = self._model.encoder.variables + \
                 self._model.decoder.variables
-            gradients = tape.gradient(loss, variables)
+            gradients = tape.gradient(batch_loss, variables)
             self.optimizer.apply_gradients(zip(gradients, variables))
 
-        return loss
+        return batch_loss
 
     def train_epoch(self, args, dataset):
 
@@ -117,7 +123,7 @@ class Network:
 
     def train(self, args, dataset):
         check_dir = './training_checkpoints'
-        check_prefix = os.path.join(check_dir, "c")
+        check_prefix = os.path.join(check_dir, "test")
         checkpoint = tf.train.Checkpoint(
             optimizer=self.optimizer, model=self._model)
         for epoch in range(args.epochs):
@@ -130,7 +136,7 @@ class Network:
 
 
 # force  the output to be of a certain length
-    def evaluate(self, args, sentence):
+    def greedy_evaluate(self, args, sentence):
 
         ids = []
         sentence = pre.preprocess(sentence)
@@ -154,66 +160,74 @@ class Network:
             if (predicted_word != "<eos>"):
                 result.append(predicted_word)
                 dec_input = tf.expand_dims([predicted_id], 0)
-            elif predicted_word == "<eos>" and len(result) < 3:
-                continue
             else:
-                return result, sentence, ids
+                return " ".join(result), sentence, ids
         return " ".join(result), sentence, ids
 
 
-# unfinished beam_search
+# setting beam_size=1 should be equal to using greedy_evaluate
+#super naive ATM
 
     def beam_evaluate(self, args, sentence, beam_size=5):
-
         sentence = pre.preprocess(sentence)
         seq = self.tokenizer.texts_to_sequences([sentence])
 
         hidden = tf.zeros((1, args.rnn_dim))
-
+        # print()
         enc_out, enc_hidden = self._model.encoder(
             tf.convert_to_tensor(seq), hidden)
+
         dec_hidden = enc_hidden
 
         dec_input = tf.expand_dims([self.tokenizer.word_index["<sos>"]], 0)
 
-        # prerobit na numpy
+        predictions, dec_hidden, _ = self._model.decoder(dec_input,
+                                                         dec_hidden,
+                                                         enc_out)
+# val ind are (1,5) tensors
 
-        options = [Hypothesis(0) for _ in range(beam_size)]
+        search = []
+        values, indices = tf.math.top_k(predictions, beam_size)
 
-        for x in options:
-            x.add_hidden(tf.zeros((1, args.rnn_dim)))
-            x.add_dec_input(dec_input)
+        # constructs beggining of the search
+        for i in range(beam_size):
+            # neg log
+            search.append(Hypothesis(-tf.math.log(values[0][i])))
 
-        for t in range(args.max_length):
+            search[-1].add_word_id(indices[0][i].numpy())
+            search[-1].add_hidden(dec_hidden)
+            # need to expand dims input to decoder has to be a tensor of 1,1,dim
+            search[-1].add_dec_input(tf.expand_dims([indices[0][i]],0))
 
-            # for each beam check options
-            new_options = []
-            for beam in options:
-                predictions, dec_hidden, _ = self._model.decoder(beam.dec_input,
-                                                                 beam.dec_hidden, enc_out)
+# until some stopping condition is met
+        end_condition=False
 
-                values, indices = tf.math.top_k(predictions,beam_size)
+        while not end_condition:
+            new_paths = []
+            for path in search:
+                predictions, dec_hidden, _ = self._model.decoder(path.dec_input,
+                                                                 path.hidden,
+                                                                 enc_out)
+                values, indices = tf.math.top_k(predictions, beam_size)
 
-                for i, val in enumerate(values):
+                for i in range(beam_size):
 
-                    new_hypothesis = Hypothesis(beam.logits)
-                    # penalization heuristics on OPENMT
-                    # penalize short
+                    # zabalit do nejakeho update
+                    new_paths.append(Hypothesis(-tf.math.log(values[0][i]) +
+                                                path.value))
+                    new_paths[-1].set_history(path)
+                    new_paths[-1].add_word_id(indices[0][i].numpy())
+                    new_paths[-1].add_hidden(dec_hidden)
+                    new_paths[-1].add_dec_input(tf.expand_dims([indices[0][i]],0))
 
-                    new_hypothesis.update_value(val)
+            # keep only the best paths
+            search = sorted(new_paths, key=lambda x: x.value)[:beam_size]
 
-                    # indices may not be a vector of scalars but vector of vectors
-                    new_hypothesis.add_dec_out(indices[0][i].numpy())
-                    if self.tokenizer.index_word[(indices[0][i].numpy())] == "<eos>":
-                        for x in options:
-                            print("val={} logits = {}".format(
-                                x.value, x.logits))
-                        return "done","done","done"
-                    new_hypothesis.add_word(
-                        self.tokenizer.index_word[(indices[0][i].numpy())])
-                    new_hypothesis.add_hidden(dec_hidden)
-
-                    new_options.append(new_hypothesis)
-            
-            options = sorted(new_options, key=lambda x: x.logits)[-1:-beam_size:-1]
-            # figure out  the stopping criterion
+            # end condition checks
+            for x in search:
+                if self.tokenizer.index_word[x.word_ids[-1]]=="<eos>":
+                    end_condition=True
+                    break
+                elif len(x.word_ids) > 10:
+                    end_condition=True
+                    break
