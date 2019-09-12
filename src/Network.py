@@ -64,11 +64,17 @@ class Network:
     def prepare_data(self, args):
         """tokenizes pads_sequences and returns the dataset"""
 
-        titulky, komentare = pre.get_data(args)
+        titulky, komentare = pre.get_data_lists(args)
+
+        titulky= list(map(lambda x: pre.limit_seq_length(x,args.max_length),titulky))
+        komentare= list(map(lambda x: pre.limit_seq_length(x,args.max_length),komentare))
+        # print(list(titulky))
+
 
         # create vocab and tokenize
         self.tokenizer.fit_on_texts(titulky)
         self.tokenizer.fit_on_texts(komentare)
+
         tensor_titulky = self.tokenizer.texts_to_sequences(titulky)
         tensor_koment = self.tokenizer.texts_to_sequences(komentare)
         # padding
@@ -89,6 +95,8 @@ class Network:
         with tf.GradientTape() as tape:
             enc_output, enc_hidden = self._model.encoder(inp, enc_hidden)
             dec_hidden = enc_hidden
+            #
+            # print(self.tokenizer.word_index)
             dec_input = tf.expand_dims(
                 [self.tokenizer.word_index['<sos>']] * self.batch_size, 1)
             # forcing
@@ -107,23 +115,26 @@ class Network:
         return batch_loss
 
     def train_epoch(self, args, dataset):
+        with open("loss","a") as loss_log:
+            steps_per_epoch = args.max_sentences // args.batch_size
+            enc_hidden = self._model.encoder.initialize_hidden_state()
+            total_loss = 0
 
-        steps_per_epoch = args.max_sentences // args.batch_size
-        enc_hidden = self._model.encoder.initialize_hidden_state()
-        total_loss = 0
+            for (batch, (inp, targ)) in enumerate(dataset.take(steps_per_epoch)):
+                batch_loss = self.train_batch(
+                    inp, targ, enc_hidden, args.batch_size)
+                # print(inp.shape)
+                total_loss += batch_loss
+                loss_log.write(str(batch_loss.numpy()))
+                loss_log.write("\n")
+                print('Batch {} Loss {:.4f}'.format(batch, batch_loss.numpy()))
 
-        for (batch, (inp, targ)) in enumerate(dataset.take(steps_per_epoch)):
-            batch_loss = self.train_batch(
-                inp, targ, enc_hidden, args.batch_size)
-            # print(inp.shape)
-            total_loss += batch_loss
-            print('Batch {} Loss {:.4f}'.format(batch, batch_loss.numpy()))
-
-        return total_loss
+            return total_loss
 
     def train(self, args, dataset):
+
         check_dir = './training_checkpoints'
-        check_prefix = os.path.join(check_dir, "test")
+        check_prefix = os.path.join(check_dir, "overnight")
         checkpoint = tf.train.Checkpoint(
             optimizer=self.optimizer, model=self._model)
         for epoch in range(args.epochs):
@@ -131,6 +142,7 @@ class Network:
             epoch_loss = self.train_epoch(args, dataset)
             print('Epoch {} had {} LOSS finished in {} seconds.'.format(
                 epoch, epoch_loss, time.time() - start))
+
             if epoch % 5 == 4:
                 checkpoint.save(file_prefix=check_prefix)
 
@@ -139,7 +151,7 @@ class Network:
     def greedy_evaluate(self, args, sentence):
 
         ids = []
-        sentence = pre.preprocess(sentence)
+        sentence = pre.preprocess(sentence,eval=True)
         tensor = self.tokenizer.texts_to_sequences([sentence])
         result = []
         hidden = tf.zeros((1, args.rnn_dim))
@@ -168,6 +180,9 @@ class Network:
 # setting beam_size=1 should be equal to using greedy_evaluate
 #super naive ATM
 
+
+# return a sorted list of most probable outputs
+
     def beam_evaluate(self, args, sentence, beam_size=5):
         sentence = pre.preprocess(sentence)
         seq = self.tokenizer.texts_to_sequences([sentence])
@@ -184,7 +199,7 @@ class Network:
         predictions, dec_hidden, _ = self._model.decoder(dec_input,
                                                          dec_hidden,
                                                          enc_out)
-# val ind are (1,5) tensors
+# val ind are (1,beam_size) tensors
 
         search = []
         values, indices = tf.math.top_k(predictions, beam_size)
@@ -228,6 +243,16 @@ class Network:
                 if self.tokenizer.index_word[x.word_ids[-1]]=="<eos>":
                     end_condition=True
                     break
+                # limiting the length of decoded sentence
                 elif len(x.word_ids) > 10:
                     end_condition=True
                     break
+
+        res=[]
+        for path in search:
+            x = [ self.tokenizer.index_word[id]  for id in path.word_ids ]
+            if x[-1]=="<eos>":
+                del x[-1]
+            res.append(" ".join(x))
+# just returning dummy values for unpacking
+        return res , None , None

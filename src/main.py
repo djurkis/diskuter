@@ -13,13 +13,13 @@ if __name__ == "__main__":
     import re
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=64,
+    parser.add_argument("--batch_size", default=16,
                         type=int, help="Batch size.")
     parser.add_argument("--embed_dim", default=128, type=int,
                         help="CLE embedding dimension.")
-    parser.add_argument("--epochs", default=50, type=int,
+    parser.add_argument("--epochs", default=30, type=int,
                         help="Number of epochs.")
-    parser.add_argument("--max_sentences", default=25000,
+    parser.add_argument("--max_sentences", default=50000,
                         type=int, help="Maximum number of sentences to load.")
     parser.add_argument("--rnn_dim", default=256, type=int,
                         help="RNN cell dimension.")
@@ -29,8 +29,8 @@ if __name__ == "__main__":
                         help="Maximum number of words to use in vocab.")
     parser.add_argument("--lr", default=0.003, type=float,
                         help="Learning rate for optimizer.")
-    parser.add_argument("--max_length", default=40, type=int,
-                        help="Maximum length of output sentence.")
+    parser.add_argument("--max_length", default=8, type=int,
+                        help="Maximum length of output sentence., 0  for no limit")
     args = parser.parse_args()
 
     tf.config.threading.set_inter_op_parallelism_threads(8)
@@ -54,11 +54,14 @@ if __name__ == "__main__":
 
 
 # test evalutaion
-    titulky,komentare = pre.get_data(args,max=5,test=True)
+    titulky,komentare = pre.get_data_lists(args,test=True)
 
-    for i, (t, k) in enumerate(zip(titulky, komentare)):
-        print("{}".format(t))
-        result, sent, ids = network.greedy_evaluate(args, t)
-        print(result)
-        print("{}".format(k))
-        print("--------------")
+    with open("gold_labels","w") as gold, open("output","w") as out,open("inputs","w") as inputs:
+        for i, (t, k) in enumerate(zip(titulky, komentare)):
+
+            result, sent, ids = network.beam_evaluate(args, " ".join(t.split()[:args.max_length]))
+
+            inputs.write("{}".format( " ".join(t.split()[:args.max_length])))
+            out.write("{}".format(result))
+            out.write("\n")
+            gold.write("{}".format(" ".join(k.split()[:args.max_length])))
