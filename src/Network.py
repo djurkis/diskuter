@@ -72,8 +72,11 @@ class Network:
 
 
         # create vocab and tokenize
+
         self.tokenizer.fit_on_texts(titulky)
         self.tokenizer.fit_on_texts(komentare)
+        #
+        # with open("")
 
         tensor_titulky = self.tokenizer.texts_to_sequences(titulky)
         tensor_koment = self.tokenizer.texts_to_sequences(komentare)
@@ -115,7 +118,7 @@ class Network:
         return batch_loss
 
     def train_epoch(self, args, dataset):
-        with open("loss","a") as loss_log:
+        with open("loss_overfit","a") as loss_log:
             steps_per_epoch = args.max_sentences // args.batch_size
             enc_hidden = self._model.encoder.initialize_hidden_state()
             total_loss = 0
@@ -134,7 +137,7 @@ class Network:
     def train(self, args, dataset):
 
         check_dir = './training_checkpoints'
-        check_prefix = os.path.join(check_dir, "overnight")
+        check_prefix = os.path.join(check_dir, "overfit")
         checkpoint = tf.train.Checkpoint(
             optimizer=self.optimizer, model=self._model)
         for epoch in range(args.epochs):
@@ -184,7 +187,7 @@ class Network:
 # return a sorted list of most probable outputs
 
     def beam_evaluate(self, args, sentence, beam_size=5):
-        sentence = pre.preprocess(sentence)
+        sentence = pre.preprocess(sentence,eval=True)
         seq = self.tokenizer.texts_to_sequences([sentence])
 
         hidden = tf.zeros((1, args.rnn_dim))

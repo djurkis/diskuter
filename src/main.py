@@ -17,9 +17,9 @@ if __name__ == "__main__":
                         type=int, help="Batch size.")
     parser.add_argument("--embed_dim", default=128, type=int,
                         help="CLE embedding dimension.")
-    parser.add_argument("--epochs", default=30, type=int,
+    parser.add_argument("--epochs", default=200, type=int,
                         help="Number of epochs.")
-    parser.add_argument("--max_sentences", default=50000,
+    parser.add_argument("--max_sentences", default=200,
                         type=int, help="Maximum number of sentences to load.")
     parser.add_argument("--rnn_dim", default=256, type=int,
                         help="RNN cell dimension.")
@@ -27,7 +27,7 @@ if __name__ == "__main__":
                         help="Maximum number of threads to use.")
     parser.add_argument("--vocab_limit", default=20000, type=int,
                         help="Maximum number of words to use in vocab.")
-    parser.add_argument("--lr", default=0.003, type=float,
+    parser.add_argument("--lr", default=0.03, type=float,
                         help="Learning rate for optimizer.")
     parser.add_argument("--max_length", default=8, type=int,
                         help="Maximum length of output sentence., 0  for no limit")
@@ -54,14 +54,16 @@ if __name__ == "__main__":
 
 
 # test evalutaion
-    titulky,komentare = pre.get_data_lists(args,test=True)
+    titulky,komentare = pre.get_data_lists(args)
 
-    with open("gold_labels","w") as gold, open("output","w") as out,open("inputs","w") as inputs:
+    with open("gold_labels_overfit","w") as gold, open("output_overfit","w") as out,open("inputs_overfit","w") as inputs:
         for i, (t, k) in enumerate(zip(titulky, komentare)):
 
             result, sent, ids = network.beam_evaluate(args, " ".join(t.split()[:args.max_length]))
 
             inputs.write("{}".format( " ".join(t.split()[:args.max_length])))
+            inputs.write("\n")
             out.write("{}".format(result))
             out.write("\n")
             gold.write("{}".format(" ".join(k.split()[:args.max_length])))
+            gold.write("\n")
