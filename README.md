@@ -29,19 +29,35 @@ Due to the nature of natural language and its categorical nature, we need to pro
 Diskuter has an embedding layer in its Encoder and trains it during training.
 
 It is possible to use pretrained embeddings such as [Fast-text](https://fasttext.cc), which are available as a word vector pairs.
-Another option is to use BERT. TODO//
+
+Another option is to use an external pretrained network (Eg. BERT) and pass data through it before encoding.
+
 
 #### Decoding
 
-Decoding is done after the encoder is finish with its input. TODO//
+Decoding is done after the encoder is finished with its inputs.
+We supply the decoder with the final state of the encoder as well as <sos> token.
+This architecture is Autoregressive, meaning the output is then fed into the decoder until some stopping condition is met.
+We are using Beam decoding, which for some specified k searches k-best paths at the same time.
+
+
+
+Possible stopping criteria worth considering: [Breaking the Beam Search Curse: A Study of (Re-)Scoring Methods and
+Stopping Criteria for Neural Machine Translation](https://arxiv.org/pdf/1808.09582.pdf)
+
 
 ## Installation
 
 
 
+
 ## Sources
 
+
+
 ## Results
+
+TODO...
 
 
 ## Data
@@ -72,4 +88,3 @@ title reaction pairs that are used as input and gold label for the network.
 ## Direction
 After experimenting and getting a feel for working with Tensorflow the next steps will be aimed at using
 [tensor2tensor](https://github.com/tensorflow/tensor2tensor) library.
-Implementing tranformer from scratch would take too much time and reusing optimized code is just good practice.
