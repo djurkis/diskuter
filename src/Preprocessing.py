@@ -2,7 +2,7 @@
 
 import re
 import pickle
-import tensorflow_datasets as tfds
+
 
 
 # splitting is wasting time, just append and prepend tokens
@@ -45,13 +45,15 @@ def clean(s):
     return w
 
 
+# hardcoded name of input files...
+
 def get_data_lists(args,test=False,n=100):
     if test:
-        with open("new_input","r") as i, open("new_target","r") as t:
+        with open("input_lines","r") as i, open("target_lines","r") as t:
             input,target = i.readlines(),t.readlines()
             return input[args.max_sentences:args.max_sentences+n],target[args.max_sentences:args.max_sentences+n]
 
-    with open("new_input","r") as i, open("new_target","r") as t:
+    with open("input_lines","r") as i, open("target_lines","r") as t:
         input,target = i.readlines(),t.readlines()
         return input[:args.max_sentences],target[:args.max_sentences]
 

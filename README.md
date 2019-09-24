@@ -48,6 +48,13 @@ Stopping Criteria for Neural Machine Translation](https://arxiv.org/pdf/1808.095
 
 ## Installation
 
+Tested on python 3.6.8 and tensorflow 2.0
+
+`pip install tensorflow==2.0.0-rc1`
+
+
+
+The entry point of training is the `main.py` which has minor assumptions about location of the data.
 
 
 
@@ -57,7 +64,11 @@ Stopping Criteria for Neural Machine Translation](https://arxiv.org/pdf/1808.095
 
 ## Results
 
-TODO...
+Some experiment results are stored in ``experiment_results``.
+The Model seemed to be learning something, as is apparent from the loss overtime.
+But Due to small dictionary size (20k) and the nature of the input (many rare words) the <unks> were an easy choice for the network. Using subword units and increasing `dictionary_size` will most likely help the quality.
+
+Also the Basic model was trained only on a 20k subset of the dataset and still trained overnight.
 
 
 ## Data
