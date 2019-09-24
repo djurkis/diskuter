@@ -118,7 +118,7 @@ class Network:
         return batch_loss
 
     def train_epoch(self, args, dataset):
-        with open("loss_overfit","a") as loss_log:
+        with open("loss_overfit2","a") as loss_log:
             steps_per_epoch = args.max_sentences // args.batch_size
             enc_hidden = self._model.encoder.initialize_hidden_state()
             total_loss = 0
@@ -137,7 +137,7 @@ class Network:
     def train(self, args, dataset):
 
         check_dir = './training_checkpoints'
-        check_prefix = os.path.join(check_dir, "overfit")
+        check_prefix = os.path.join(check_dir, "overfit2")
         checkpoint = tf.train.Checkpoint(
             optimizer=self.optimizer, model=self._model)
         for epoch in range(args.epochs):

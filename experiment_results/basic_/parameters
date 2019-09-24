@@ -1,0 +1,18 @@
+parser.add_argument("--batch_size", default=32,
+                    type=int, help="Batch size.")
+parser.add_argument("--embed_dim", default=128, type=int,
+                    help="CLE embedding dimension.")
+parser.add_argument("--epochs", default=30, type=int,
+                    help="Number of epochs.")
+parser.add_argument("--max_sentences", default=20000,
+                    type=int, help="Maximum number of sentences to load.")
+parser.add_argument("--rnn_dim", default=512, type=int,
+                    help="RNN cell dimension.")
+parser.add_argument("--threads", default=8, type=int,
+                    help="Maximum number of threads to use.")
+parser.add_argument("--vocab_limit", default=20000, type=int,
+                    help="Maximum number of words to use in vocab.")
+parser.add_argument("--lr", default=0.002, type=float,
+                    help="Learning rate for optimizer.")
+parser.add_argument("--max_length", default=8, type=int,
+                    help="Maximum length of output sentence., 0  for no limit")
