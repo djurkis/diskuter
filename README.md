@@ -2,6 +2,14 @@
 
 Diskuter was created with the goal to examine deep learning techniques in text generation.
 
+The problem outline:
+Given Headline about an article , output a discussion commentary.
+
+The Metric for measuring the commentaries is not well defined, but its semantics should be correlated with the semantics of the article.
+Also some form of naturality, is desired. Commentary that looks like it was written by a human would be preferable.
+
+One way, how to achieve this is to model a distribution. //TODO
+
 
 ### Contents
 
@@ -16,11 +24,19 @@ Diskuter was created with the goal to examine deep learning techniques in text g
 
 ## Architecture
 
-The core of the baseline model architecture is an encoder-decoder RNN with attention.
 
+
+The Network consists of an Encoder and a Decoder.
+
+Encoder recieves input string, does its computation and outputs a context vector, which is a representation of input.
+
+Decoder takes this representation and autoregressively outputs a softmax over the vocabulary at each timestep, and finally returns a sequence of words that are 'most' probable.
+
+
+
+
+![attention](/readme_data/attention_mechanism.jpg?raw=true "attention")
 [Attention](https://arxiv.org/abs/1508.04025) seems to help solve the bottleneck of information flow from longer sequences.
-
-<!-- ![attention](/readme_data/attention_mechanism.jpg?raw=true "attention") -->
 
 #### Embedding
 
@@ -65,13 +81,15 @@ The entry point of training is the `main.py` which has minor assumptions about l
 ## Results
 
 Some experiment results are stored in ``experiment_results``.
-The Model seemed to be learning something, as is apparent from the loss overtime.
+The Model seemed to be learning something, as is apparent from the loss over time.
 But Due to small dictionary size (20k) and the nature of the input (many rare words) the <unks> were an easy choice for the network. Using subword units and increasing `dictionary_size` will most likely help the quality.
 
 Also the Basic model was trained only on a 20k subset of the dataset and still trained overnight.
 
 
 ## Data
+
+
 
 Data used to train the model were obtained from [SME.sk](hhtps://sme.sk).
 
@@ -93,9 +111,22 @@ For training only comments reacting directly to the article are used.
 After filtering the comments reacting to other comments there are 1.2 Million
 title reaction pairs that are used as input and gold label for the network.
 
+As of the reaction strings, they were cleaned by a basic replacement of
+characters that are considered noise. (Eg. links)
+
+
+
 
 
 
 ## Direction
-After experimenting and getting a feel for working with Tensorflow the next steps will be aimed at using
+
+
+Using a Transformer architecture together with better embeddings, language model and decoding procedure,
+it will be possible to significantly improve the results.
+
+
+
+
+
 [tensor2tensor](https://github.com/tensorflow/tensor2tensor) library.
