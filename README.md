@@ -86,7 +86,7 @@ Some experiment results are stored in ``experiment_results``.
 The Model seemed to be learning something, as is apparent from the loss over time.
 But Due to small dictionary size (20k) and the nature of the input (many rare words) the <unks> were an easy choice for the network. Using subword units and increasing `dictionary_size` will most likely help the quality.
 
-Also the Basic model was trained only on a 20k subset of the dataset and still trained overnight.
+Also the Basic model was trained only on a 20k subset of the dataset and 50k steps.
 
 
 ![lot](/experiment_results/basic_/Figure_1.png?raw=true "attention")
