@@ -36,6 +36,8 @@ Decoder takes this representation and autoregressively outputs a softmax over th
 
 
 ![attention](/readme_data/attention_mechanism.jpg?raw=true "attention")
+
+
 [Attention](https://arxiv.org/abs/1508.04025) seems to help solve the bottleneck of information flow from longer sequences.
 
 #### Embedding
