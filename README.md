@@ -89,6 +89,10 @@ But Due to small dictionary size (20k) and the nature of the input (many rare wo
 Also the Basic model was trained only on a 20k subset of the dataset and still trained overnight.
 
 
+![lot](/experiment_results/basic_/Figure_1.png?raw=true "attention")
+
+
+
 ## Data
 
 
