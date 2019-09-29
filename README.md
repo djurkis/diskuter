@@ -8,7 +8,7 @@ Given Headline about an article , output a discussion commentary.
 The Metric for measuring the commentaries is not well defined, but its semantics should be correlated with the semantics of the article.
 Also some form of naturality, is desired. Commentary that looks like it was written by a human would be preferable.
 
-One way, how to achieve this is to model a distribution. //TODO
+One way, how to achieve this is to reuse ideas from machine translation and model a distribution P and pick  output that maximizes P(output|input).
 
 
 ### Contents
@@ -22,20 +22,23 @@ One way, how to achieve this is to model a distribution. //TODO
 
 
 
-## Architecture
+## High level architecture
+
+We start by having an input and a target file. Each is a newline delimited string corresponding to headline and a discussion commentary from SME.sk.
+
+Firstly, a tokenizer tokenizes strings into words, and then translates them into integers creating a dictionary.
+Line pairs are then batched and padded so they are uniform in length.
 
 
 
-The Network consists of an Encoder and a Decoder.
-
-Encoder recieves input string, does its computation and outputs a context vector, which is a representation of input.
-
-Decoder takes this representation and autoregressively outputs a softmax over the vocabulary at each timestep, and finally returns a sequence of words that are 'most' probable.
-
-
-
+Diskuter consists of an Encoder and a Decoder.
+Encoder recieves input sequence of integers and embeds it into real valued vector, does its computation and outputs a context vector, which is a representation of the input sequence.
 
 ![attention](/readme_data/attention_mechanism.jpg?raw=true "attention")
+
+Decoder takes this representation and autoregressively outputs a softmax over the vocabulary at each timestep, and finally returns a sequence of words that are 'most' probable. Teacher forcing is used to speed up the training. (Using golden labels for the decoder input instead of possibly erroneous ones)
+
+
 
 
 [Attention](https://arxiv.org/abs/1508.04025) seems to help solve the bottleneck of information flow from longer sequences.
@@ -72,11 +75,21 @@ Tested on python 3.6.8 and tensorflow 2.0
 
 
 
-The entry point of training is the `main.py` which has minor assumptions about location of the data.
+The entry point is the `main.py` which has minor assumptions about location of the data, and can be used for training and inference.
 
 
 
 ## Sources
+
+[Neural machine translation by jointly learning to align and translate](https://arxiv.org/pdf/1409.0473.pdf)
+
+[MFF UK Deep learning course](https://ufal.mff.cuni.cz/courses/npfl114/1819-summe)
+
+[Efficient Estimation of Word Representations in
+Vector Space](https://arxiv.org/pdf/1301.3781.pdf)
+
+[Learning Phrase Representations using RNN Encoder–Decoder
+for Statistical Machine Translation](https://arxiv.org/pdf/1406.1078.pdf)
 
 
 
