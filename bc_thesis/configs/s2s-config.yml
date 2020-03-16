@@ -1,0 +1,46 @@
+train-sets:
+  #
+vocabs:
+
+type:
+  - s2s
+model:
+  - s2s-model.npz
+workspace:
+  - 13000
+mini-batch-fit:
+
+valid-freq:
+  - 2500
+save-freq:
+  - 10000
+disp-freq:
+  - 1000
+log:
+  - s2s-model/train.log
+valid-log:
+  - s2s-model/valid.log
+valid-set:
+
+seed:
+  - 1111
+overwrite:
+  - keep-best
+
+valid-metrics:
+  - cross-entropy
+  - translation
+
+valid-script-path:
+  -bleu_calc.sh
+
+dropout-rnn:
+  - 0.2
+dropout-src:
+  - 0.1
+dropout-trg:
+  - 0.1
+
+lr-warmup:
+
+layer-normalization:

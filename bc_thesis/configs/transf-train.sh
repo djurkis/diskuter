@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+./marian \
+  --train-sets train/train.bpe.src train/train.bpe.tgt \
+  --vocabs marian.vocab.bpe.all.yml marian.vocab.bpe.all.yml \
+  --type transformer \
+  --model transfmodel/model.npz \
+  --max-length 80 \
+  --valid-mini-batch 64 \
+  --beam-size 6 \
+  --normalize 0.6 \
+  --enc-depth 6 \
+  --dec-depth 6 \
+  --transformer-heads 8 \
+  --transformer-dropout 0.1 \
+  --label-smoothing 0.1 \
+  --mini-batch-fit -w 12000 \
+  --valid-freq 5000 \
+  --save-freq 5000 \
+  --disp-freq 500 \
+  --log transfmodel/train.log \
+  --valid-log transfmodel/valid.log \
+  --valid-sets dev/dev.bpe.src dev/dev.tgt \
+  --seed 420 \
+  --overwrite --keep-best \
+  --valid-metrics cross-entropy translation perplexity \
+  --valid-script-path ./chrf.sh \
+  --learn-rate 0.0004 \
+  --lr-warmup 16000 \
+  --lr-decay-inv-sqrt 16000 \
+  --lr-report \
+  --exponential-smoothing \
+  --optimizer-params 0.9 0.98 1e-09 --clip-norm 5 \
+  --devices 0
